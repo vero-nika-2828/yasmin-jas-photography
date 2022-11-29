@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/*Body dimensions and General font*/
 html body{
     height: 100%;
     font-family: 'Lato', sans-serif;
@@ -11,6 +12,7 @@ html body{
     margin:0;
 }
 
+/*Header dimensions*/
 header{
     width: 100%;
     line-height: 75px;
@@ -19,6 +21,7 @@ header{
     
 }
 
+/*Logo dimensions and position*/
 #logo, #nav-menu{
     line-height:75px;
     margin-bottom:0;
@@ -39,10 +42,13 @@ header{
     padding: 15px 20px;
 }
 
-
+#logo i {
+  color:red;
+}
 
 
 #nav-menu{
+    float:right;
     margin-right:2rem;
     margin-bottom:30px;
     line-height: 75px;
@@ -51,7 +57,7 @@ header{
 }
 
 #nav-menu li{
-    float:right;
+    float:left;
     margin-right:0;
     list-style-type: none;
     display:inline;
@@ -202,7 +208,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 10s;
 }
 
 @keyframes fade {
@@ -213,4 +219,17 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+h6 i{
+  color: #BBBBBB;
+
+}
+
+.title {
+  text-align: center;
+}
+
+button{
+  margin-bottom:20px;
 }
