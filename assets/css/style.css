@@ -18,7 +18,7 @@ header{
     line-height: 75px;
     height: 75px;
      
-    
+  
 }
 
 /*Logo dimensions and position*/
@@ -30,21 +30,17 @@ header{
 
 
 #logo{
-    display: inline-block;
     line-height:20px;
-    letter-spacing:1.5px;
     font-family: 'Acme', sans-serif;
     font-style: oblique; 
     color:#000000;
-    float:left;
+    float: left; 
     margin-left: 2rem;
     margin-top:0;
     padding: 15px 20px;
 }
 
-#logo i {
-  color:red;
-}
+
 
 
 #nav-menu{
@@ -72,9 +68,10 @@ header{
     margin:0.5rem;
     padding:0.5rem;
     font-family: 'Acme', sans-serif;
+    letter-spacing: 0.2rem;
     }
 
-    nav{
+nav{
        margin:0
     }
 
@@ -129,10 +126,9 @@ i{
    
 }
 
+*{box-sizing: border-box;}
 
-{box-sizing: border-box}
-
-.mySlides {display: none}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -231,5 +227,35 @@ h6 i{
 }
 
 button{
+  margin-bottom:30px;
+}
+
+/* About section */
+
+#about-pic{
+  height: 100%;
+  width:100%;
+  margin:20px;
+  padding:20px;
+}
+
+/* The below CSS is not working */
+.about-text{
+  width:50%;
+  height:100%;
+  margin: 8px;
   margin-bottom:20px;
+  margin-left:50px;
+  padding:30px;
+  vertical-align: middle;
+  
+}
+
+.about{
+  margin-bottom:20px;
+}
+
+section{
+  margin:20px;
+  width:100%
 }
