@@ -28,6 +28,10 @@ header{
 }
 
 
+h1,h2,h3,h4,h5,h6{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+}
 
 #logo{
     line-height:20px;
@@ -118,13 +122,12 @@ footer a {
 
     }
 
-i{ 
+footer i{ 
     margin:8px;   
     color: white;
     text-align:center;
     
-   
-}
+  }
 
 *{box-sizing: border-box;}
 
@@ -243,10 +246,8 @@ button{
 .about-text{
   width:50%;
   height:100%;
-  margin: 8px;
-  margin-bottom:20px;
-  margin-left:50px;
-  padding:30px;
+  margin:50px 20px 20px;
+  padding:50em;
   vertical-align: middle;
   
 }
@@ -254,10 +255,47 @@ button{
 .about{
   margin-bottom:20px;
 }
-
-section{
-  margin:20px;
-  width:100%
+.review-background{
+  height:600px;
+  background:url(../images/background-photo/sunlight-throught-the-forest.jpg);
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  
+     
 }
 
+
+.review-container{
+  max-width: 40vw;
+  max-height: 60vh;
+  border-radius: 30px;
+  padding:20px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.534);
+  margin-bottom: 20px;
+  background-color:rgba(0,0,0,0.8);
+  color:white; 
+  
+  
+}
+
+/* move the above review container to the middle */
+
+
+.checked{
+  text-align: center;
+  color:#E68801;
+}
+
+.reviewer{
+  max-height:13vh;
+  width:13vh;
+  border: solid 1px;
+  border-radius: 50%;
+  float:left;
+  padding: 2px;
+  background-color: #717171;
+ 
+  }
 
