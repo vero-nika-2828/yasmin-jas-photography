@@ -254,19 +254,36 @@ button{
 
 .about{
   margin-bottom:20px;
+ 
 }
+
+/* Add opacity to the background only */
 .review-background{
   height:600px;
   background:url(../images/background-photo/sunlight-throught-the-forest.jpg);
+  background-position:center;
+  top:20px;
   background-size: cover;
-  background-position: center center;
-  z-index: -1;
-  
-     
+  background-repeat: no-repeat;  
+         
 }
 
+.opacity{
+  height:100%;
+  width:100%;
+  background-color:rgba(0,0,0,0.7);
+  z-index:1;
+}
 
 .review-container{
+  height:100%;
+  width:100%;
+  z-index:2;
+  position:relative;
+  bottom:600px;
+}
+
+.reviewer-box{
   max-width: 40vw;
   max-height: 60vh;
   border-radius: 30px;
@@ -274,14 +291,13 @@ button{
   margin-left: 20px;
   box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.534);
   margin-bottom: 20px;
-  background-color:rgba(0,0,0,0.8);
-  color:white; 
-  
-  
+  background-color: white;
+  opacity:0.9;
+  color:black; 
+    
 }
 
 /* move the above review container to the middle */
-
 
 .checked{
   text-align: center;
@@ -296,6 +312,14 @@ button{
   float:left;
   padding: 2px;
   background-color: #717171;
+  z-index:1
  
   }
 
+
+
+
+.light-color{
+  color:#BBBBBB;
+  
+}
