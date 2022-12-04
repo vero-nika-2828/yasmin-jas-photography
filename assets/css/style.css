@@ -244,24 +244,23 @@ button{
 
 #about-pic{
   height: 100%;
-  width:100%;
+  width: 50%;
   margin:20px;
   padding:20px;
 }
 
 /* The below CSS is not working */
 .about-text{
-  width:50%;
+  width: 50%;
   height:100%;
-  margin:50px 20px 20px;
-  padding:50em;
   vertical-align: middle;
-  
+  margin-right:0;
 }
 
 .about{
+  height:100%;
   margin-bottom:20px;
- 
+  
 }
 
 /* Add opacity to the background only */
@@ -474,3 +473,6 @@ button{
 }
 
 
+fieldset{
+  margin:0.5rem;
+}
