@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/*Body dimensions and General font*/
+/*Body dimensions and general font specification*/
 html body{
     height: 100%;
     font-family: 'Lato', sans-serif;
@@ -10,6 +10,7 @@ html body{
     text-rendering: optimizeLegibility;
     color:#303030;
     margin:0;
+       
 }
 
 /*Header dimensions*/
@@ -17,7 +18,9 @@ header{
     width: 100%;
     line-height: 75px;
     height: 75px;
-     
+    margin:0;
+    background-color: rgba(0,0,0,0.8);
+      
   
 }
 
@@ -25,6 +28,9 @@ header{
 #logo, #nav-menu{
     line-height:75px;
     margin-bottom:0;
+    color:#CCBA78;
+   
+   
 }
 
 
@@ -37,11 +43,10 @@ h1,h2,h3,h4,h5,h6{
     line-height:20px;
     font-family: 'Acme', sans-serif;
     font-style: oblique; 
-    color:#000000;
     float: left; 
     margin-left: 2rem;
-    margin-top:0;
-    padding: 15px 20px;
+    margin-top: 0.75rem;
+    padding: 15px 10px;
 }
 
 
@@ -52,7 +57,7 @@ h1,h2,h3,h4,h5,h6{
     margin-right:2rem;
     margin-bottom:30px;
     line-height: 75px;
-    
+  
     
 }
 
@@ -67,7 +72,7 @@ h1,h2,h3,h4,h5,h6{
 
 #nav-menu a{
     text-decoration: none; 
-    color:#000000;
+    color:#CCBA78;
     text-transform: uppercase;
     margin:0.5rem;
     padding:0.5rem;
@@ -80,7 +85,8 @@ nav{
     }
 
 footer{
-    background-color: #F1E5AC;
+    background-color:#CCBA78;;
+    
         
 }
     
@@ -118,13 +124,14 @@ footer a {
     width:20px;
     padding:0.5rem;
     border-radius: 50%;
-    background-color:black;
+    background-color:#000000;
 
     }
 
 footer i{ 
     margin:8px;   
     color: white;
+    font-weight: bold;
     text-align:center;
     
   }
@@ -332,7 +339,11 @@ button{
   height:100%;
   width:100%;
   object-fit: cover;
+  
 }
+
+
+
 
 #portfolio {
   width:100%;
@@ -344,25 +355,32 @@ button{
   row-gap: 10px;
   column-gap: 10px;
   margin:auto;
-   
   
+    
   }
 
 
 .portfolio-unit {
   height:100%;
   width:100%;
-    
+   
 }
+
 
 .portfolio-unit img{
   overflow: hidden;
   object-fit:cover;
-
+  transition: 0.3s ease-out;  
 }
 
+.portfolio-unit:hover img{
+  scale: 1.5;
+   }
+
 .photo1{
-  grid-row: span 2;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
 }
 
 .photo2{
@@ -454,3 +472,5 @@ button{
   grid-column:3;
   grid-row: 9;
 }
+
+
