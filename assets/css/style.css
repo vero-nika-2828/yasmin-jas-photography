@@ -8,9 +8,9 @@ html body{
     font-weight: 500;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
-    color:#303030;
+    color:#000000;
     margin:0;
-       
+          
 }
 
 /*Header dimensions*/
@@ -71,8 +71,6 @@ font-family: 'Acme', sans-serif;
 }
 
 #nav-menu a{
-  text-decoration: none; 
-    text-decoration: none; 
   text-decoration: none; 
   color:#CCBA78;
   text-transform: uppercase;
@@ -238,27 +236,44 @@ h6 i{
 
 .title {
   text-align: center;
+  margin-bottom: 45px;
 }
 
-button{
-  margin-bottom:30px;
+#book a{
+  text-decoration: none;
 }
+
+#book {
+  text-decoration:underline;
+  color:#E68801;
+  font-weight: bolder;
+  letter-spacing: 0.05rem;
+}
+
+
 
 /* About section */
 
+.row{
+  margin:auto;
+}
 
 .about{
   height:100%;
   margin-bottom:20px;
+  margin-right:0;
+  }
+
   
-}
 
 #about-pic{
   height: 100%;
   width: 50%;
   margin-bottom: 30px;
+  vertical-align:middle;
     
 }
+
 
 
 #about-pic img{
@@ -270,16 +285,16 @@ button{
   padding:0.8rem;
   border:1px solid;
   background-color:#CCBA78;
- 
+  
 }
 
 .about-text{
   width:50%;
   height:100%;
-  margin: 0 5rem 8rem;
-  padding:5px;
+  margin: 0;
+  padding:4rem 5rem 8rem;;
   text-align: center;
-  
+    
 }
 
 
@@ -287,11 +302,12 @@ button{
 /* Add opacity to the background only */
 .review-background{
   height:600px;
+  width:100%;
   background:url(../images/background-photo/fjords.jpg);
   background-position:center;
-  top:20px;
   background-size: cover;
   background-repeat: no-repeat;  
+  top:20px;
          
 }
 
@@ -331,6 +347,7 @@ button{
 .checked{
   text-align: center;
   color:#E68801;
+  
 }
 
 .reviewer{
@@ -478,8 +495,36 @@ button{
   grid-row: 9;
 }
 
-fieldset{
-  margin:0.5rem;
+#contact-bg{
+  background:url(../images/background-photo/a-dog-in-front-of-waterfall.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;  
+      
+
+  
+}
+
+form{
+  max-width: 800px;
+  max-height: 800px;;
+  margin: 100px 0 100px 100px ; 
+  padding: 50px;
+  text-align: left;
+  border: 2px solid;
+  border-radius: 5%;
+  background-color:rgba(204, 186, 120, 0.7);
+
+  
+}
+
+form div{
+  margin-bottom:5px;
+  padding-left:2rem;
+}
+
+#message{
+  display: inline-block;
 }
 
 
