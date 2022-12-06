@@ -20,6 +20,7 @@ header{
   height: 75px;
   margin:0;
   background-color: rgba(0,0,0,0.8);
+  display:flex;
     
 
 }
@@ -42,33 +43,52 @@ font-family: 'Acme', sans-serif;
   line-height:20px;
   font-family: 'Acme', sans-serif;
   font-style: oblique; 
-    font-style: oblique; 
-  font-style: oblique; 
-  float: left; 
-    float: left; 
   float: left; 
   margin-left: 2rem;
   margin-top: 0.75rem;
   padding: 15px 10px;
 }
 
+#drop-down{
+  visibility: hidden;
+}
 
-#nav-menu{
-  float:right;
-  margin-right:2rem;
-  margin-bottom:30px;
-  line-height: 75px;
+/* make the input dissabled 
+input[type=checkbox]:disabled:   */
 
+.hamburger-icon{
+  font-size:30px;
+  color:#CCBA78;
+  visibility:hidden;
+  position:absolute;
+  right:2rem;
+  top:0;
   
 }
 
+
+input[type=checkbox]:disabled{
+  display: none;
+}
+
+
+#nav-menu{
+  right: 2rem;
+  top:0;
+  position:absolute;
+  z-index: 5;
+}
+
+
 #nav-menu li{
-  float:left;
   margin-right:0;
   list-style-type: none;
-  display:inline;
-
+  display:inline
+ 
 }
+
+
+
 
 #nav-menu a{
   text-decoration: none; 
@@ -79,6 +99,8 @@ font-family: 'Acme', sans-serif;
   font-family: 'Acme', sans-serif;
   letter-spacing: 0.2rem;
   }
+
+
 
 nav{
      margin:0
@@ -140,7 +162,10 @@ footer i{
 
 *{box-sizing: border-box;}
 
-.mySlides {display: none;}
+.mySlides {
+  display: block;
+ }
+
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -148,6 +173,8 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  position:relative;
+  z-index: -2;
 }
 
 /* Next & previous buttons */
@@ -530,6 +557,70 @@ form div{
 
 /*Media queries*/
 @media screen and (max-width: 800px){
+  
+  .hamburger-icon{
+    font-size:30px;
+    color:#CCBA78;
+    visibility:visible;
+    
+  }
+
+  input[type=checkbox]:enabled{
+    display: block;
+  }
+
+ nav{
+  display:flex;
+ }
+
+  #nav-menu{
+    background:rgba(0,0,255,1);
+    display: flex;
+    top:75px;
+    right:0;
+    height:100vh;
+    visibility: hidden;
+    
+    
+    
+    /*background-color: red;
+    right: 2rem;
+    top:0;
+    position:absolute;
+    z-index: index 5;*/
+  }
+  
+  
+    #nav-menu li{
+    /*float:left;
+    margin-right:0;
+    list-style-type: none;*/
+    list-style-type:circle;
+    background-color:red;
+    padding-left:0;
+    
+    display:block;
+    width:100%;
+    text-align: center;
+    position:relative;
+     
+
+   }
+
+
+  #nav-menu a{
+   /* text-decoration: none; 
+    color:#CCBA78;
+    text-transform: uppercase;
+    margin:0.5rem;
+    padding:0.5rem;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 0.2rem;*/
+    display:flex;
+    }
+ 
+  nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
+ 
   .portfolio-unit {
     height:30%;
     width:100%;
@@ -540,15 +631,26 @@ form div{
       display: block;
     }
 
-
   }       
-      
+    
+
+  
 
   @media screen and (max-width: 575px){
     #about-pic {
       width:100%;
             
     }
+
+   
+    /*#nav-menu{
+      margin-right: auto;
+      top:48px;
+      right: 80px;
+      height:100%;
+      width:20%;
+      background-color: rgba(0,0,0,0.8);
+    }*/
   
   #about-pic img{
     margin-top:50px;
