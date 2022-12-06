@@ -540,32 +540,32 @@ form div{
       display: block;
     }
 
-   #about-pic {
-     width: 100%;
-     display: block;
-     margin-top:3vh;      
-      }
 
-    #about-pic img{
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0.5rem;
-      vertical-align: middle;
-       
-      }
-
-       .about-text{
-        width:100%;
-        margin: 0;
-        padding:0;
-        text-align: center;
-        margin-left:auto
-        
-      }
   }       
       
 
-
+  @media screen and (max-width: 575px){
+    #about-pic {
+      width:100%;
+            
+    }
+  
+  #about-pic img{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.5rem;
+   
+  }
+  
+  .about-text{
+    width:100%;
+    margin:0;
+    padding: 0 5rem;
+   
+    
+  }
+  }
 
 
 @media screen and (max-width: 575px){
