@@ -546,7 +546,7 @@ h6 i{
   margin-top:10px;
 }
 
-#contact-bg span{
+#address span{
   color: white;
   letter-spacing: 1px;
 }
@@ -583,26 +583,30 @@ form div{
 
 .textarea{
   height: 200px;
-  width: 400px;
+  width: 350px;
   margin-left: 5px;
 }
 
 form label{
   margin-right: 10px;
-  vertical-align: top;
+ 
+  
   }
 
 #message > label{
   padding-left:10px;
- 
   
+   
 }
 
+.check-box{
+  margin-left:100px;
+}
+  
 input[type=checkbox]{
   letter-spacing: 1px;
   text-align: center;
-  margin-left:60px;
-    
+   
 }
 
 #address{
@@ -629,62 +633,51 @@ input[type=checkbox]{
 /*Media queries*/
 @media screen and (max-width: 1350px){
   form{
-    margin-left: 20%;
-    margin-right:20%;
+   margin-left: 20%;
+   margin-right:20%;
     
   }
 
-  #address{
-    margin-left: 20%;
-    margin-right:20%;
+ #address{
+  margin-left: 20%;
+  margin-right:20%;
   }
 }
 
 @media screen and (max-width: 923px){
 
-  #contact-bg{
-    margin:0;
-  }
 
-  #contact-bg h5 {
-    margin-left:-50px;
-    margin-top:10px;
-  }
-  
-  #contact-bg  span{
-    color: white;
-    letter-spacing: 1px;
-  }
-  
   
 form{
-  min-width: 150px;
-  min-height: 700px;
-  margin: auto;
-  margin-bottom: 30px;
-  padding-bottom: 100px;
+  margin-left: 20%;
+  margin-right:20%;
+   
+  min-width: 20rem;
+  max-height: 1000px;
   border-radius: 12px;
  
 }
 
 form div{
-  margin:auto;
+  margin-left: 4rem;
 }
  
 #emailaddress-input{
-  margin-left: auto;
+  margin-left: 4rem;
+  margin-rigt: 1.5rem,
     
   }
   
 .textarea{
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width:  280px;
   margin-left: 0;
   }
 
 form input{
-  width:200px;
+  width: 280px;
   display:block;
+ 
   }
   
 #message > label{
@@ -694,15 +687,24 @@ form input{
      
   }
   
+.check-box{
+  display: block;
+  margin-left: 4rem;
+}
+
 .check-box span{
   display: block;
-  margin: 0px 100px;
+  margin: 0px 20px;
+  float:left;
+ 
   }
 
-.check-box span input {
+.check-box input {
   display:inline;
   width: 10px;
  }
+
+ 
 
 
 .check-box label{
@@ -714,13 +716,18 @@ form input{
   
   
   #address{
-    margin:auto;
+    margin-left: 20%;
+    margin-right:20%;
+    min-width: 20rem;
   }
   
+  #contact-bg h5 {
+    margin-left: 1.5rem;
+  }
   
   .btn{
  
-    margin: 20px 150px;
+    margin-left: 25%;
   }
   
    
