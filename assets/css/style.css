@@ -99,7 +99,9 @@ input[type=checkbox]:disabled{
   padding:0.5rem;
   font-family: 'Acme', sans-serif;
   letter-spacing: 0.2rem;
-  }
+   
+}
+
 
 
 
@@ -530,21 +532,39 @@ h6 i{
   background:url(../images/background-photo/a-dog-in-front-of-waterfall.jpg);
   background-position:center;
   background-size: cover;
-  background-repeat: no-repeat;  
-      
-
+  background-repeat: no-repeat;
+  height:100%;
+  width: 100%;  
+  padding-top:30px;
+  padding-bottom:80px;
   
 }
 
+
+#contact-bg h5 {
+  margin-left:-50px;
+  margin-top:10px;
+}
+
+#contact-bg span{
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+
 form{
-  max-width: 800px;
-  max-height: 800px;;
-  margin: 100px 0 100px 100px ; 
+  max-width: 600px;
+  max-height: 600px;
+  margin: 50px 0 50px 50px; 
   padding: 50px;
   text-align: left;
   border: 2px solid;
   border-radius: 5%;
   background-color:rgba(204, 186, 120, 0.7);
+  text-align: left;
+  vertical-align:text-top;
+  font-weight: bolder;
+  
 
   
 }
@@ -554,10 +574,27 @@ form div{
   padding-left:2rem;
 }
 
-#message{
-  display: inline-block;
+#emailaddress-input{
+  margin-left: 32px;
+  margin-bottom: 15px;
 }
 
+#message{
+  display: inline-block;
+  
+}
+
+#address{
+  max-width:600px;
+  max-height: 200px;
+  border:2px solid;
+  border-radius: 12px;
+  margin: 0 0 0 50px; 
+  padding: 10px 50px 50px;
+  background-color:rgba(204, 186, 120, 0.7);
+  text-align: center;
+  font-weight: bolder;
+}
 
 /*Media queries*/
 @media screen and (max-width: 800px){
@@ -588,6 +625,7 @@ form div{
     position: absolute;
     width:100%;
    
+   
     
     
     
@@ -610,11 +648,11 @@ form div{
   
     float:right;
     width:100%;
-    text-align: center;
     top:75px;
     right:0;
     margin-top:5px;
     height:100px;
+    text-align: center;
    
    }
 
@@ -628,8 +666,8 @@ form div{
     font-family: 'Acme', sans-serif;
     letter-spacing: 0.2rem;*/
     display:flex;
-    margin-left:50%;
-    }
+    text-align: center;
+        }
  
   nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
  

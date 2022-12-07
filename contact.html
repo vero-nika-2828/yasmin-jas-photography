@@ -31,62 +31,73 @@
         <h2>Contact</h2>
         <h5>Would you like to know more?  Ask me!</h5>
          
-        <div class="row" id="contact-bg">
-            <div class="col-sm">
-                
-                    <form method="POST" action=https://formdump.codeinstitute.net>
+        <div id="contact-bg">
+                            
+            <form method="POST" action=https://formdump.codeinstitute.net>
+                <div>
+                    <label for="firstname">Frist Name</label>
+                    <input type="text" name="firstname" id="firstname" class="form" placeholder="Your name"  required />
+                </div>
 
-                        <div>
-                            <label for="firstname">Frist Name</label>
-                            <input type="text" name="firstname" id="firstname" class="form" placeholder="Your name"  required />
-                        </div>
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lasttname" class="form" placeholder="Your surname" required />
+                </div>
 
-                        <div>
-                            <label for="lastname">Last Name</label>
-                            <input type="text" name="lastname" id="lasttname" class="form" placeholder="Your surname" required />
-                        </div>
-
-                        <div>
-                            <label for="emailaddress">Email</label>
-                            <input type="email" name="email" id="emailaddress" class="form" placeholder="Email" required />
-                        </div>
+                <div id="emailaddress-input">
+                    <label for="emailaddress">Email</label>
+                    <input type="email" name="email" id="emailaddress" class="form" placeholder="Email" required />
+                 </div>
                
 
                 
-                        <div id="message">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" class="form" placeholder="Your message" rows="10" cols="50" required></textarea>  
-                    </div>
+                <div id="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form" placeholder="Your message" rows="10" cols="50" required></textarea>  
+                </div>
           
 
                                 
                             
-                   <h5>What type of photography are you interested in?</h5>
+                <h5 class="header-adjust">What type of photography are you interested in?</h5>
                     
-                    <div>
-                        <input type="checkbox" name="pet" id="pet"> 
-                        <label for="pet">Pet</label>
+                <div>
+                    <input type="checkbox" name="pet" id="pet"> 
+                    <label for="pet">Pet</label>
 
 
-                         <input type="checkbox" name="product" id="product"> 
-                         <label for="product">Product</label>  
+                    <input type="checkbox" name="product" id="product"> 
+                    <label for="product">Product</label>  
 
 
-                        <input type="checkbox" name="nature" id="nature">
-                        <label for="nature">Nature</label> 
-                   </div>
+                    <input type="checkbox" name="nature" id="nature">
+                    <label for="nature">Nature</label> 
+                </div>
                 
                 <!--submit button-->
                 <div>
                     <input type="submit" value="Send"/>
  
                 </div>
-                </form>
+            </form>
 
+            <div id="address">
+                                          
+                <p>Yasmin Yas Photography <br> Kelvin street 25 <br> London WY25 8PP <br> United Kingdom</p>
+                
+                <div>
+                    <span>Email:</span>
+                    <span>bookings@yasminjasphotography.com</span>
+                </div>
+    
+                <div>
+                    <span>Mobile:</span>
+                    <span>0747512751</span>
+                </div>
             </div>
-            <div class="col-sm">col-sm</div>
-           
-          </div>
+            
+    
+        </div>
 
     </section>
     
