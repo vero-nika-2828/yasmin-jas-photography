@@ -53,37 +53,44 @@
                 
                 <div id="message">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" class="form" placeholder="Your message" rows="10" cols="50" required></textarea>  
+                    <textarea name="message" id="message" class="textarea" placeholder="Your message" required></textarea>  
                 </div>
           
 
                                 
                             
-                <h5 class="header-adjust">What type of photography are you interested in?</h5>
+                <h5>What type of photography are you interested in?</h5>
                     
-                <div>
-                    <input type="checkbox" name="pet" id="pet"> 
-                    <label for="pet">Pet</label>
+                <div class="check-box">
 
+                    <span>
+                        <input type="checkbox" name="pet" id="pet"> 
+                        <label for="pet">Pet</label>
+                    </span>
 
-                    <input type="checkbox" name="product" id="product"> 
-                    <label for="product">Product</label>  
+                    <span>
+                        <input type="checkbox" name="product" id="product"> 
+                        <label for="product">Product</label> 
+                    </span>
 
+                    <span>
+                        <input type="checkbox" name="nature" id="nature">
+                        <label for="nature">Nature</label> 
+                    </span>
+              
 
-                    <input type="checkbox" name="nature" id="nature">
-                    <label for="nature">Nature</label> 
                 </div>
                 
                 <!--submit button-->
                 <div>
-                    <input type="submit" value="Send"/>
- 
+                    <button type="submit" class="btn btn-primary">Send</button>
+                     
                 </div>
             </form>
 
             <div id="address">
                                           
-                <p>Yasmin Yas Photography <br> Kelvin street 25 <br> London WY25 8PP <br> United Kingdom</p>
+                <p><strong>Yasmin Jas Photography </strong><br> Kelvin street 25, <br> London WY25 8PP, <br> United Kingdom</p>
                 
                 <div>
                     <span>Email:</span>

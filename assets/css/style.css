@@ -548,7 +548,7 @@ h6 i{
 
 #contact-bg span{
   color: white;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 }
 
 
@@ -556,7 +556,7 @@ form{
   max-width: 600px;
   max-height: 600px;
   margin: 50px 0 50px 50px; 
-  padding: 50px;
+  padding: 50px 15px 30px;
   text-align: left;
   border: 2px solid;
   border-radius: 5%;
@@ -564,24 +564,45 @@ form{
   text-align: left;
   vertical-align:text-top;
   font-weight: bolder;
-  
 
-  
+ 
 }
 
 form div{
-  margin-bottom:5px;
+  margin-bottom:6px;
   padding-left:2rem;
+  text-align: start;
+  vertical-align: top;
 }
 
+
 #emailaddress-input{
-  margin-left: 32px;
+  margin-left: 35px;
   margin-bottom: 15px;
 }
 
-#message{
-  display: inline-block;
+.textarea{
+  height: 200px;
+  width: 400px;
+  margin-left: 5px;
+}
+
+form label{
+  margin-right: 10px;
+  vertical-align: top;
+  }
+
+#message > label{
+  padding-left:10px;
+ 
   
+}
+
+input[type=checkbox]{
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left:60px;
+    
 }
 
 #address{
@@ -596,7 +617,116 @@ form div{
   font-weight: bolder;
 }
 
+
+.btn{
+  background-color: #000000;
+  color: #CCBA78;
+  border: #000000;
+  align-items: center;
+  margin: 10px 0 0 200px;
+}
+
 /*Media queries*/
+@media screen and (max-width: 1350px){
+  form{
+    margin-left: 20%;
+    margin-right:20%;
+    
+  }
+
+  #address{
+    margin-left: 20%;
+    margin-right:20%;
+  }
+}
+
+@media screen and (max-width: 923px){
+
+  #contact-bg{
+    margin:0;
+  }
+
+  #contact-bg h5 {
+    margin-left:-50px;
+    margin-top:10px;
+  }
+  
+  #contact-bg  span{
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  
+form{
+  min-width: 150px;
+  min-height: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-bottom: 100px;
+  border-radius: 12px;
+ 
+}
+
+form div{
+  margin:auto;
+}
+ 
+#emailaddress-input{
+  margin-left: auto;
+    
+  }
+  
+.textarea{
+  height: 200px;
+  width: 200px;
+  margin-left: 0;
+  }
+
+form input{
+  width:200px;
+  display:block;
+  }
+  
+#message > label{
+  padding-left:0;
+  display:block;
+  
+     
+  }
+  
+.check-box span{
+  display: block;
+  margin: 0px 100px;
+  }
+
+.check-box span input {
+  display:inline;
+  width: 10px;
+ }
+
+
+.check-box label{
+  display:inline;
+  align-items: center;
+  width:10px,
+}
+
+  
+  
+  #address{
+    margin:auto;
+  }
+  
+  
+  .btn{
+ 
+    margin: 20px 150px;
+  }
+  
+   
+  }       
+
+
 @media screen and (max-width: 800px){
   
   .hamburger-icon{
@@ -668,13 +798,10 @@ form div{
     display:flex;
     text-align: center;
         }
- 
+
   nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
  
-    
-
-
-  }       
+ 
     
   @media screen and (max-width: 873px){
 
@@ -738,5 +865,5 @@ form div{
   }
   }
 
-
+}
 
