@@ -85,10 +85,21 @@ input[type=checkbox]:disabled{
 #nav-menu li{
   margin-right:0;
   list-style-type: none;
+  transition: all 0.3s ease-in-out;
 
 }
 
+#nav-menu li:hover{
+  background-color: #CCBA78;
+  }
 
+  #nav-menu li:active{
+    background-color: #CCBA78;
+    }
+
+    #nav-menu li:focus{
+      background-color: #CCBA78;
+      } 
 
 
 #nav-menu a{
@@ -99,11 +110,18 @@ input[type=checkbox]:disabled{
   padding:0.5rem;
   font-family: 'Acme', sans-serif;
   letter-spacing: 0.2rem;
+  transition: all 0.3s ease-in-out;
    
 }
 
 
+#nav-menu a:hover{
+    color:#000000;
+} 
 
+#nav-menu a:focus{
+  color:#000000;
+} 
 
 nav{
      margin:0
