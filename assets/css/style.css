@@ -445,30 +445,18 @@ h6 i{
 }
 
 .photo13{
-  grid-column:2 / span 2;
+  grid-column:2;
   grid-row: 6;
 }
 
 
 .photo14{
-  grid-column:1;
-  grid-row: 7;
-}
-
-.photo15{
-  grid-column:1;
-  grid-row: 8;
-}
-
-.photo16{
-  grid-column:2;
-  grid-row: 7 / span 2;
-}
-
-.photo17{
   grid-column:3;
-  grid-row: 7 /span 2;
+  grid-row: 6;
 }
+
+
+
 
 #contact-bg{
   background:url(../images/background-photo/a-dog-in-front-of-waterfall.jpg);
@@ -479,7 +467,7 @@ h6 i{
   width: 100%;  
   padding-top:30px;
   padding-bottom:80px;
-  
+ color: #E68801;  
 }
 
 
