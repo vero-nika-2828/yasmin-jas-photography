@@ -114,21 +114,24 @@ nav{
      margin:0;
   }
 
+  #heroimage-section {
+    height: 75vh;
+    width:100%;
+    margin-bottom: 50px;
+  }
 
-#hero-image{
- height: 100%;
- width: 100%;
- background: url(../images/a-girl-with-a-rabbit.jpg);
- background-size: cover;
- background-position: center;
- margin-right: auto;
- margin-right: auto;
- 
- 
-}
+  #hero-image{
+    height:100%;
+    width:100%;
+    background: url(../images/a-girl-with-a-rabbit.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    padding-right:20rem;
 
+  }
 
-footer{
+  footer{
     background-color:#CCBA78;
     height:100%;
     margin: 0;
@@ -194,19 +197,21 @@ h6 i{
 
 .title {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 
-#book a{
-  text-decoration: none;
-}
 
 #book {
-  
   text-transform: uppercase;
   color:#E68801;
   font-weight: bolder;
   letter-spacing: 0.05rem;
+  transition: background-color, color;
+}
+
+#book:hover{
+  background-color:#E68801;
+  color: white;
 }
 
 
