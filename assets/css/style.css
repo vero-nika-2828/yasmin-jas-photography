@@ -13,6 +13,7 @@ html body{
           
 }
 
+
 /*Header dimensions*/
 header{
   width: 100%;
@@ -54,9 +55,6 @@ font-family: 'Acme', sans-serif;
   visibility: hidden;
 }
 
-/* make the input dissabled 
-input[type=checkbox]:disabled:   */
-
 .hamburger-icon{
   font-size:30px;
   color:#CCBA78;
@@ -85,21 +83,9 @@ input[type=checkbox]:disabled{
 #nav-menu li{
   margin-right:0;
   list-style-type: none;
-  transition: all 0.3s ease-in-out;
+  transition: background-color;
 
 }
-
-#nav-menu li:hover{
-  background-color: #CCBA78;
-  }
-
-  #nav-menu li:active{
-    background-color: #CCBA78;
-    }
-
-    #nav-menu li:focus{
-      background-color: #CCBA78;
-      } 
 
 
 #nav-menu a{
@@ -110,27 +96,45 @@ input[type=checkbox]:disabled{
   padding:0.5rem;
   font-family: 'Acme', sans-serif;
   letter-spacing: 0.2rem;
-  transition: all 0.3s ease-in-out;
+  transition: color;
    
 }
 
 
 #nav-menu a:hover{
-    color:#000000;
-} 
+  background-color: #CCBA78;
+  color:#000000;
+  } 
 
-#nav-menu a:focus{
+#nav-menu a:active{
   color:#000000;
 } 
 
 nav{
-     margin:0
+     margin:0;
   }
 
 
+#hero-image{
+ height: 100%;
+ width: 100%;
+ background: url(../images/a-girl-with-a-rabbit.jpg);
+ background-size: cover;
+ background-position: center;
+ margin-right: auto;
+ margin-right: auto;
+ 
+ 
+}
+
 
 footer{
-    background-color:#CCBA78;;
+    background-color:#CCBA78;
+    height:100%;
+    margin: 0;
+    padding: 1.5rem 0;
+    
+
     
         
 }
@@ -141,13 +145,14 @@ footer{
     font-style: oblique; 
     color:#000000;
     text-align: center ;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     
         
 }
 
 .social-links {
     text-align: center;
+    margin-bottom: 0;
 } 
 
 
@@ -181,101 +186,6 @@ footer i{
     
   }
 
-*{box-sizing: border-box;}
-
-.mySlides {
-  display: block;
- }
-
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  position:relative;
-  z-index: -2;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 10s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 h6 i{
   color: #BBBBBB;
@@ -310,7 +220,7 @@ h6 i{
 
 .about{
   height:100%;
-  margin-bottom:20px;
+  margin-bottom:50px;
   margin-right:0;
   }
 
@@ -352,14 +262,14 @@ h6 i{
 
 /* Add opacity to the background only */
 .review-background{
-  height:600px;
+  height:700px;
   width:100%;
-  background:url(../images/background-photo/fjords.jpg);
+  background: url(../images/background-photo/fjords.jpg);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;  
   top:20px;
-         
+  
 }
 
 .opacity{
@@ -379,46 +289,55 @@ h6 i{
 }
 
 .reviewer-box{
-  max-width: 40vw;
-  max-height: 60vh;
+  width: 25vw;
+  height: 40vh;
   border-radius: 30px;
-  padding:20px;
-  margin-left: 20px;
+  padding:2rem;
+  margin: 4rem 9rem;
   box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.534);
-  margin-bottom: 20px;
   background-color: white;
   opacity:0.9;
   color:black; 
- 
-    
+  position: relative;
+  z-index:2;
+     
 }
+
+.align-elements{
+  display:block;
+  text-align: left;
+}
+
+
 
 /* move the above review container to the middle */
 
-.checked{
+.rated{
   text-align: center;
   color:#E68801;
   
 }
 
 .reviewer{
-  max-height:13vh;
-  width:13vh;
+  height: 8rem;
+  width: 8rem;
   border: solid 1px;
   border-radius: 50%;
   float:left;
   padding: 2px;
-  background-color: #717171;
-  z-index:1
+ margin-right:2rem;
  
   }
 
 
-
-
-.light-color{
+.review-headers{
   color:#FFC000;
+  margin-top: 30px;
   
+}
+
+.reviewer-box p{
+  display:block;
 }
 
 
@@ -426,7 +345,7 @@ h6 i{
   height:100%;
   width:100%;
   object-fit: cover;
-  
+    
 }
 
 
@@ -440,8 +359,8 @@ h6 i{
   grid-auto-rows: 20rem;
   row-gap: 10px;
   column-gap: 10px;
-  margin:0 0 0 10px;
-  padding-right:10px;
+  margin:0 0 10px 10px;
+  padding-right:17px;
         
   }
 
