@@ -1,13 +1,16 @@
 # *Yasmin Jas* Photography
+
 ---->placeholder -website link
 ----->placeholder website examples 
 
 # Project Overview
+
 Yasmin is a devoted photographer who has been capturing beautiful moments as well as beautiful places since 2005. Her love for nature and animals has not only become the main focus of her photography but it is a great inspiration for the majority of her photos. She uses natural features to complement overall product image her customers want to sell. She would like to offer her services to anyone who desire to create lasting memories of their pets or places they love as well as those whose aim is to get attractive photos of their product for promotional purposes. 
 
 # Project objectives
 
 ## User goal
+
 * Find out what photography the site owner offers
 * See samples and quality of phtographer's work
 * Learn about photographers experience in the field
@@ -16,6 +19,7 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 
 
 ## Site owner goal
+
 * Atract customers for the business
 * Convince customers to choose site owner's service
 * Present their experience
@@ -53,6 +57,7 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 
 
 ### Returning Visitor Requirements
+
 1. I want customers to see 
 2. I want customers want to be able to contact me and hire me 
 3. I want to showcase my work
@@ -63,8 +68,22 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 # Design
 
 ## Design choices
+
 Design will be visited by pet owners, nature enthusiast as well as business owners who want to advertise their product to increase their sales and therefore the site needs to cater for all these customers. The site should use profesional with friendly and playful tone. 
 
+## Colour scheme
 
+The main colors of the website are black, black with slight opacity and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
 
+## Typography
+
+Google Fonts was used to import the fonts chosen for this website.
+
+Lato was used as a general font for the websit. Acme was used for headers, emphasised words to keep with the plaful and fiendly theme. San seriff was added in case browser doesnt support the other two fonts. 
+
+## Imagery
+
+Imagery used, inclusive of hero image and background images, was taken from photographer's archive to showcase their work. 
+
+## Wireframes
 
