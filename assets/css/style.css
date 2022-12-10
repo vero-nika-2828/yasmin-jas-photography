@@ -289,7 +289,7 @@ h6 i{
 
 .review-container{
   height:100%;
-  width:100%;
+  width:auto;
   z-index:2;
   position:relative;
   bottom:680px;
@@ -338,7 +338,7 @@ h6 i{
   border-radius: 50%;
   float:left;
   padding: 2px;
- margin-right:2rem;
+  margin-right:2rem;
  
   }
 
@@ -620,7 +620,7 @@ input[type=checkbox]{
 
 @media screen and (max-width: 1281px){
   .reviewer-box {
-    height: 25vh;
+    height: 27vh;
     width:  100vh;
     margin: 3rem 8rem 2rem 4rem;
         
@@ -629,7 +629,44 @@ input[type=checkbox]{
 
 }
 
+@media screen and (max-width: 1110px){
+/*here*/
+  .break-flexcolumns{
+    display:block;
+  }
+.break{
+   width:100%;
+  }
 
+ #about-pic img{
+  
+ }
+
+  .review-background{
+    height: 940px;
+  }
+  
+  .review-container {
+    bottom: 940px;
+
+  }
+  
+  
+  
+  .reviewer-box {
+    height: auto;
+    width:  70vw;
+    margin: 2rem 6rem 2rem 6rem;
+        
+  }
+
+  .reviewer{
+    height: 6rem;
+    width: 6rem;
+  
+    }
+
+}
 
 @media screen and (max-width: 923px){
 
@@ -849,7 +886,52 @@ form input{
 
   }
 
+  @media screen and (max-width: 708px){
+   /*here*/
+
+   .review-background{
+    height: 1050px;
   
+  }
+  
+  .review-container {
+    bottom: 1050px;
+
+  }
+  
+  
+  
+  .reviewer-box {
+    height: auto;
+    width:  auto;
+ 
+       
+  }
+
+  }
+
+  @media screen and (max-width: 640px){
+    .review-background{
+      height: 1100px;
+    
+    }
+    
+    .review-container {
+      bottom: 1100px;
+      margin-right: 0;
+      margin-left: 3.5rem;
+  
+    }
+
+     
+    .reviewer-box {
+       margin: 2rem 0;
+       width:70vw;
+       
+  }
+
+
+  }
 
   @media screen and (max-width: 575px){
 
@@ -892,3 +974,47 @@ margin-right:40%;
 }
   }
 
+  @media screen and (max-width: 533px){
+   
+    .review-background{
+      height: 1300px;
+    
+    }
+    
+    .review-container {
+       bottom: 1300px;
+   
+      margin-left: 2rem;
+      
+    }
+
+     
+    .reviewer-box {
+       margin: 2rem 0;
+       
+  }
+
+  @media screen and (max-width: 423px){
+   
+    .review-background{
+      height: 1200px;
+    
+    }
+    
+    .review-container {
+      width:auto;
+      bottom: 1200px;
+      margin:0;
+     
+   
+     
+    }
+
+     
+    .reviewer-box {
+      width:90vw;
+      margin: 1.5rem 0;
+           
+  }
+  }
+  }
