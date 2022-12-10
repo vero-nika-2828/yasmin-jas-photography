@@ -203,15 +203,16 @@ h6 i{
 
 #book {
   text-transform: uppercase;
-  color:#E68801;
+  color: #000000;
   font-weight: bolder;
   letter-spacing: 0.05rem;
   transition: background-color, color;
+  
 }
 
 #book:hover{
-  background-color:#E68801;
-  color: white;
+  background-color:#CCBA78;
+  color: #000000;
 }
 
 
@@ -242,6 +243,8 @@ h6 i{
 
 
 #about-pic img{
+  height:100%;
+  width:100%;
   display:block;
   margin-top: 4rem;
   margin-left: auto;
@@ -258,7 +261,7 @@ h6 i{
   width:50%;
   height:100%;
   margin: 0;
-  padding:5rem 5rem 8rem;;
+  padding: 9rem 5rem 8rem;;
   text-align: center;
     
 }
@@ -295,7 +298,7 @@ h6 i{
 
 .reviewer-box{
   width: 25vw;
-  height: 40vh;
+  height: 45vh;
   border-radius: 30px;
   padding:2rem;
   margin: 4rem 9rem;
@@ -308,11 +311,16 @@ h6 i{
      
 }
 
+
 .align-elements{
   display:block;
   text-align: left;
 }
 
+.reviewer-box p{
+  margin-top: 1.5rem;;
+
+}
 
 
 /* move the above review container to the middle */
@@ -561,7 +569,39 @@ input[type=checkbox]{
 }
 
 /*Media queries*/
+ 
+@media screen and (max-width: 1670px){
+    
+    .about-text{
+      padding-top: 6rem;
+      padding-bottom: 2rem;
+           
+    }
+}
+
+@media screen and (max-width: 1590px){
+  .review-background{
+    height: 850px;
+  }
+  
+  .review-container {
+    bottom: 830px;
+
+  }
+
+  .reviewer-box {
+    height: 54vh;
+    padding-bottom:1rem;
+    
+  }
+}
+
 @media screen and (max-width: 1350px){
+   
+  .about-text{
+     padding: 5rem 3rem 0 0rem;
+  }
+
   form{
    margin-left: 20%;
    margin-right:20%;
@@ -574,8 +614,24 @@ input[type=checkbox]{
   }
 }
 
-@media screen and (max-width: 923px){
+@media screen and (max-width: 1590px){
 
+}
+
+@media screen and (max-width: 1281px){
+  .reviewer-box {
+    height: 25vh;
+    width:  100vh;
+    margin: 3rem 8rem 2rem 4rem;
+        
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 923px){
 
   
 form{
@@ -825,7 +881,7 @@ margin-right:40%;
   }
   
   .about-text{
-    width:100%;
+    /*width:100%;*/
     margin: 0;
     padding: 0 4rem;
    
