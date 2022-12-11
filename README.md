@@ -73,7 +73,8 @@ Design will be visited by pet owners, nature enthusiast as well as business owne
 
 ## Colour scheme
 
-The main colors of the website are black, black with slight opacity and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
+The main colors of the website are black, slightly brighter shade of black and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
+Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used for emphasis and better contrast on dark background. 
 
 ## Typography
 

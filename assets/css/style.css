@@ -306,7 +306,7 @@ h6 i{
   box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.534);
   background-color: white;
   opacity:0.9;
-  color:black; 
+  color:#000000; 
   position: relative;
   z-index:2;
     
@@ -483,14 +483,11 @@ h6 i{
 
 
 #contact-bg h5 {
-  margin-left:-50px;
-  margin-top:10px;
-}
-
-#address span{
-  color: white;
-  letter-spacing: 1px;
-}
+ /* margin-left:-50px;*/
+  display: relative;
+  justify-content: center;
+  margin-top:20px;
+  }
 
 
 form{
@@ -509,11 +506,18 @@ form{
  
 }
 
+
+
 form div{
   margin-bottom:6px;
   padding-left:2rem;
-  text-align: start;
-  vertical-align: top;
+
+}
+
+
+form label{
+  margin-right: 10px;
+  margin-top: 0;
 }
 
 
@@ -522,32 +526,47 @@ form div{
   margin-bottom: 15px;
 }
 
-.textarea{
+#message-container{
+ display: flex;
+}
+
+#message  label{
+  display:inline;
+  top:0;
+      
+}
+
+
+
+textarea{
   height: 200px;
   width: 350px;
-  margin-left: 5px;
+  margin-left: 15px;
+
 }
 
-form label{
-  margin-right: 10px;
- 
-  
-  }
-
-#message > label{
-  padding-left:10px;
-  
-   
-}
 
 .check-box{
   margin-left:100px;
 }
+
+.check-box li{
+  list-style-type: none;
+  display: inline;
+  justify-content: center;
+
+}
+
+
   
-input[type=checkbox]{
+/*input[type=checkbox]{
   letter-spacing: 1px;
-  text-align: center;
-   
+  text-align: center;  
+}*/
+
+#address span{
+  color: white;
+  letter-spacing: 1px;
 }
 
 #address{
@@ -565,11 +584,18 @@ input[type=checkbox]{
 
 .btn{
   background-color: #000000;
-  color: #CCBA78;
+  color: white;
   border: #000000;
-  align-items: center;
-  margin: 10px 0 0 200px;
-}
+  position:relative;
+  left:35%;
+  transition: all 0.3s ease in;
+  }
+
+  .btn:hover{
+    background-color:#000000;
+    scale: 1.1;
+  }
+
 
 /*Media queries*/
  
@@ -1046,4 +1072,8 @@ margin-right:40%;
 }
   }
 
+}
+
+span{
+  
 }
