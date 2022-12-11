@@ -12,20 +12,20 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 ## User goal
 
 * Find out what photography the site owner offers
-* See samples and quality of phtographer's work
-* Learn about photographers experience in the field
+* See samples and quality of photographer's work
+* Learn about photographer's experience in the field
 * Find out what other people think about the photographer
 * Find ways to reach out to photographer
 
 
 ## Site owner goal
 
-* Atract customers for the business
+* Attract customers for the business
 * Convince customers to choose site owner's service
 * Present their experience
 * Provide overview of their approach 
 * Demonstrate their skills 
-* Enable cutomers to contact them
+* Enable customers to contact them
 
 # User Experience
 
@@ -109,6 +109,40 @@ Add wireframes here
 </details>
 
 
+# Features
+
+The website is comprised of 3 pages: Home, Portfolio and Contact page. 
+
+Home page is devided into 4 sections: Hero image, Title, About and Reviews.
+
+Porfolio page consists of pictures organised in a grid. 
+
+Contact page contains the contact information for the photographer.
+
+## Logo and Navigations Bar
+
+* This feature is the same across all three pages for consistency and easy navigation
+
+* Logo is positioned on the left side in contrasting gold color and displays photographer's brand
+
+* When the logo is clicked it will bring the user back to the home page which is in line with common conventions 
+
+* The links to the other two pages (portfolio and contact) were places on the right since this is where the user expects it to be and the user can be directed to the other two pages directly if they wish to.
+
+* On smaller devices hamburger menu will be displayed where visitor can click and see what other pages are contained in the website
+
+* The links change background color and font color when a visitor hovers over it which gives visitor a feedback on where they are about to click
+
+*  6, 8, 9 
+
+## Hero Image
+
+Hero image
+
+## Future implementations
+
+* Change the hero image for the carousel with a series of images using JavaScript
+
 # Technologies Used 
 
 ## Languages Used
@@ -125,7 +159,35 @@ Add wireframes here
  * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
  * Am I Responsive  -To show the website image on a range of devices
 
- 
- 
+
+# Deployment & local development
+
+## Deployment 
+The site is deployed using GitHub Pages - ------>link to the website<------
+
+To Deploy the site using Githu
+
+## Local Development
+
+### How to Fork 
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, ----> add the link 
+3. Click the Fork button in the top right corner 
+
+### How to Clone
+
+1. Log in or (sign up) to Github
+2. Go to  the repository for this project, ----> add the link 
+3. Click on the code button  which is located to the left from the green Gitpod button
+4. Select HTTPS
+5. Copy the link shown
+6. Open the terminal in your code editor
+7. Change the current working directory to the location you want to use for the cloned directory
+8. Type 'git clone' into the terminal
+9. Paste the link you copied in step 5
+10.Press enter 
+
+Alternatively, you can click on Download ZIP
 
 
