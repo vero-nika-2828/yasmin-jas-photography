@@ -156,6 +156,7 @@ nav{
 .social-links {
     text-align: center;
     margin-bottom: 15px;
+    margin-right: 2.5rem;
 } 
 
 
@@ -234,7 +235,7 @@ h6 i{
 
 #about-pic{
   height: 100%;
-  width: 50%;
+  width: 70%;
   margin-bottom: 30px;
   vertical-align:middle;
     
@@ -599,7 +600,7 @@ input[type=checkbox]{
 @media screen and (max-width: 1350px){
    
   .about-text{
-     padding: 5rem 3rem 0 0rem;
+     padding: 3rem 6rem 0;
   }
 
   form{
@@ -638,8 +639,20 @@ input[type=checkbox]{
    width:100%;
   }
 
+#about-pic {
+  display: flex;
+  justify-content: center;;
+  margin:auto
+}
+
  #about-pic img{
+  width: 100%;
+  height: 100%;
   
+ }
+
+ .about-text {
+  padding-left: 2.5rem;
  }
 
   .review-background{
@@ -828,8 +841,8 @@ form input{
   @media screen and (max-width: 873px){
 
     #portfolio {
-      grid-template-columns: 1fr;
-      grid-auto-rows: 15rem;
+      grid-template-columns: repeat (2, 1fr);
+    
                
       }
    
@@ -965,7 +978,7 @@ margin-right:40%;
   .about-text{
     /*width:100%;*/
     margin: 0;
-    padding: 0 4rem;
+    padding: 2rem 4rem  0;
    
     
   }
@@ -1017,4 +1030,12 @@ margin-right:40%;
            
   }
   }
+
+  @media screen and (max-width: 500px){
+    
+  #portfolio {
+    grid-template-columns: unset;
   }
+
+  }
+}
