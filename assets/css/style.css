@@ -528,6 +528,7 @@ form label{
 
 #message-container{
  display: flex;
+ margin-right: 0;
 }
 
 #message  label{
@@ -537,11 +538,11 @@ form label{
 }
 
 
-
 textarea{
   height: 200px;
   width: 350px;
   margin-left: 15px;
+ 
 
 }
 
@@ -709,8 +710,8 @@ textarea{
 
   
 form{
-  margin-left: 20%;
-  margin-right:20%;
+  margin-left: 15%;
+  margin-right: 15%;
    
   min-width: 20rem;
   max-height: 1000px;
@@ -718,38 +719,66 @@ form{
  
 }
 
+form div{
+  position:relative;
+  left: 10%;
+}
+
+#emailaddress-input{
+  margin-left: 0;
+
+}
 
 form input{
   display:block;
-
  }
-#emailaddress-input{
-  margin-left: 0;
+
+
+#message-container{
+  display: contents;
+ 
+}
+
+ 
+
   
-    
-  }
-  
-  
-#message > label{
+#message-container label{
   padding-left:0;
   display:block;
+  margin-left: 16%;
+
        
   }
 
 .textarea{
-  margin-left:0;
+  display: block;
+  margin-left: 2rem;
+  margin-left: 16%;
 }
+
+#contact-bg h5 {
+  text-align: left;;
+  position: relative;
+  left: 10%;
+}
+
 .check-box{
   display: block;
   margin-left: 4rem;
 }
 
-.check-box span{
+/*.check-box span{
   display: block;
   margin: 0px 20px;
   float:left;
  
-  }
+  }*/
+
+
+
+.checkbox ul{
+   margin-left:0;
+}
 
 .check-box input {
   display:inline;
@@ -768,8 +797,8 @@ form input{
   
   
   #address{
-    margin-left: 20%;
-    margin-right:20%;
+    margin-left: 15%;
+    margin-right: 15%;
     min-width: 20rem;
   }
   
@@ -777,13 +806,9 @@ form input{
     margin-left: 1.5rem;
   }
   
-  .btn{
- 
-    margin-left: 25%;
-  }
-  
    
-  }       
+  }      
+ 
 
 
 
@@ -827,11 +852,12 @@ form input{
         grid-column: 1;
         grid-row: 9;
       }
+      #message-container label{
+        margin-left: 3rem;
+      }
 
       .textarea{
-        height: 200px;
-        width:  15em;
-        margin-left: 0;
+        margin-left: 3rem;
         }
       
 
@@ -845,14 +871,10 @@ form input{
           }
 
           form input{
-            width: 5em;
-            display:block;
-           
-            }
-            form input{
-              width: 280px;
+             display:block;
               
-              }
+            }
+           
               
 
   }
@@ -922,11 +944,57 @@ form input{
           }
   
     nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
+ 
+ form{
+  width:60%;
+  margin-left:0;
+  margin-right:0;
+  position:relative;
+  left:20%;
+ }
+
+ #contact-bg h5 { 
+  width:80%;
+  text-align: center;
+ } 
+    
+  form div  {
+    width:100%;
+    margin-left: 0;
    
-   
+  }
+
+  #emailaddress-input {
+    margin-left:0;
+    margin-right:0;
+  }
+
+  #message-container label {
+    margin-left: 2rem;
+}
+  .textarea {
+    margin-left: 2rem;
+}
+
+
+  
+  /*form input{
+   margin-left:20%;
+   margin-right:20%;
+  }
+
+  form label{
+    margin-left:20%;
+    margin-right:20%;
+  }*/
+
+  form
+  .textarea{
+    width:80%;
+  }
 
   @media screen and (max-width: 708px){
-   /*here*/
+  
 
    .review-background{
     height: 1050px;
@@ -948,6 +1016,8 @@ form input{
   }
 
   }
+
+
 
   @media screen and (max-width: 640px){
     .review-background{
