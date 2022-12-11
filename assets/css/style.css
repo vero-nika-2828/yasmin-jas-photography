@@ -371,7 +371,7 @@ h6 i{
   height:100%;
   margin: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);   
+  grid-template-columns: repeat(3, 1fr,);   
   grid-auto-rows: 20rem;
   row-gap: 10px;
   column-gap: 10px;
@@ -613,15 +613,13 @@ input[type=checkbox]{
 
  #address{
   margin-left: 20%;
-  margin-right:20%;
+  margin-right: 20%;
   }
 }
 
-@media screen and (max-width: 1590px){
-
-}
 
 @media screen and (max-width: 1281px){
+
   .reviewer-box {
     height: 27vh;
     width:  100vh;
@@ -629,11 +627,9 @@ input[type=checkbox]{
         
   }
 
-
 }
 
 @media screen and (max-width: 1110px){
-/*here*/
   .break-flexcolumns{
     display:block;
   }
@@ -696,35 +692,27 @@ form{
  
 }
 
-form div{
-  margin-left: 4rem;
-}
- 
+
+form input{
+  display:block;
+
+ }
 #emailaddress-input{
-  margin-left: 4rem;
-  margin-right: 1.5rem,
+  margin-left: 0;
+  
     
   }
   
-.textarea{
-  height: 300px;
-  width:  280px;
-  margin-left: 0;
-  }
-
-form input{
-  width: 280px;
-  display:block;
- 
-  }
   
 #message > label{
   padding-left:0;
   display:block;
-  
-     
+       
   }
-  
+
+.textarea{
+  margin-left:0;
+}
 .check-box{
   display: block;
   margin-left: 4rem;
@@ -772,73 +760,7 @@ form input{
   }       
 
 
-@media screen and (max-width: 800px){
-  
-  .hamburger-icon{
-    font-size:30px;
-    color:#CCBA78;
-    visibility:visible;
-    
-  }
 
-  input[type=checkbox]:enabled{
-    display: block;
-  }
-
-   nav{
-    transition: all 0.3s ease-in  ;
-   }
-
-  #nav-menu{
-    background:black;
-    display: block;
-    top:75px;
-    right:0;
-    height:100vh;
-    visibility: hidden;
-    transition: 0.3s, ease-in;
-    position: absolute;
-    width:100%;
-   
-   
-    
-    
-    
-    /*background-color: red;
-    right: 2rem;
-    top:0;
-    position:absolute;
-    z-index: index 5;*/
-  }
-  
-  
-    #nav-menu li{
-    /*float:left;
-    margin-right:0;
-    list-style-type: none;*/
-   
-    margin-left:40%;
-    margin-right:40%;
-
-    
-   }
-
-
-  #nav-menu a{
-   /* text-decoration: none; 
-    color:#CCBA78;
-    text-transform: uppercase;
-    margin:0.5rem;
-    padding:0.5rem;
-    font-family: 'Acme', sans-serif;
-    letter-spacing: 0.2rem;*/
-    display:flex;
-    text-align: center;
-        }
-
-  nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
- 
- 
     
   @media screen and (max-width: 873px){
 
@@ -908,6 +830,74 @@ form input{
               
 
   }
+
+  @media screen and (max-width: 800px){
+  
+    .hamburger-icon{
+      font-size:30px;
+      color:#CCBA78;
+      visibility:visible;
+      
+    }
+  
+    input[type=checkbox]:enabled{
+      display: block;
+    }
+  
+     nav{
+      transition: all 0.3s ease-in  ;
+     }
+  
+    #nav-menu{
+      background:black;
+      display: block;
+      top:75px;
+      right:0;
+      height:100vh;
+      visibility: hidden;
+      transition: 0.3s, ease-in;
+      position: absolute;
+      width:100%;
+     
+     
+      
+      
+      
+      /*background-color: red;
+      right: 2rem;
+      top:0;
+      position:absolute;
+      z-index: index 5;*/
+    }
+    
+    
+      #nav-menu li{
+      /*float:left;
+      margin-right:0;
+      list-style-type: none;*/
+     
+      margin-left:40%;
+      margin-right:40%;
+  
+      
+     }
+  
+  
+    #nav-menu a{
+     /* text-decoration: none; 
+      color:#CCBA78;
+      text-transform: uppercase;
+      margin:0.5rem;
+      padding:0.5rem;
+      font-family: 'Acme', sans-serif;
+      letter-spacing: 0.2rem;*/
+      display:flex;
+      text-align: center;
+          }
+  
+    nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
+   
+   
 
   @media screen and (max-width: 708px){
    /*here*/
