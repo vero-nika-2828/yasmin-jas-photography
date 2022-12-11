@@ -556,7 +556,6 @@ textarea{
   width: 350px;
   margin-left: 15px;
  
-
 }
 
 
@@ -725,8 +724,6 @@ textarea{
 form{
   margin-left: 15%;
   margin-right: 15%;
-   
-  min-width: 20rem;
   max-height: 1000px;
   border-radius: 12px;
  
@@ -812,14 +809,21 @@ form input{
   #address{
     margin-left: 15%;
     margin-right: 15%;
-    min-width: 20rem;
-  }
+     }
   
   #contact-bg h5 {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
   
-   
+  .check-box ul{
+    padding-left: 0;
+
+  } 
+
+  .btn{
+    left: 25%;
+  }
+
   }      
  
 
@@ -865,29 +869,8 @@ form input{
         grid-column: 1;
         grid-row: 9;
       }
-      #message-container label{
-        margin-left: 3rem;
-      }
+    
 
-      .textarea{
-        margin-left: 3rem;
-        }
-      
-
-        form div{
-          margin-left: 1rem;
-        }    
-
-        #emailaddress-input{
-          margin-left: 1rem;
-                       
-          }
-
-          form input{
-             display:block;
-              
-            }
-           
               
 
   }
@@ -924,87 +907,91 @@ form input{
       
       
       
-      /*background-color: red;
-      right: 2rem;
-      top:0;
-      position:absolute;
-      z-index: index 5;*/
+
     }
     
     
       #nav-menu li{
-      /*float:left;
-      margin-right:0;
-      list-style-type: none;*/
-     
+   
       margin-left:40%;
       margin-right:40%;
-  
-      
+        
      }
   
   
     #nav-menu a{
-     /* text-decoration: none; 
-      color:#CCBA78;
-      text-transform: uppercase;
-      margin:0.5rem;
-      padding:0.5rem;
-      font-family: 'Acme', sans-serif;
-      letter-spacing: 0.2rem;*/
       display:flex;
       text-align: center;
           }
   
     nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
- 
- form{
-  width:60%;
-  margin-left:0;
-  margin-right:0;
-  position:relative;
-  left:20%;
- }
 
- #contact-bg h5 { 
-  width:80%;
-  text-align: center;
- } 
     
-  form div  {
-    width:100%;
-    margin-left: 0;
-   
-  }
-
-  #emailaddress-input {
-    margin-left:0;
-    margin-right:0;
-  }
-
-  #message-container label {
-    margin-left: 2rem;
-}
-  .textarea {
-    margin-left: 2rem;
-}
-
-
+    form div  {
+      width:100%;
+      left:0;
+      margin-left: 0;
+     
+    }
   
-  /*form input{
-   margin-left:20%;
-   margin-right:20%;
+    #emailaddress-input {
+      margin-left:0;
+      margin-right:0;
+    }
+  
+    #message-container label {
+      margin-left: 2rem;
   }
-
-  form label{
-    margin-left:20%;
-    margin-right:20%;
-  }*/
-
+    
   form
   .textarea{
     width:80%;
   }
+  
+  .textarea {
+      margin-left: 2rem;
+  }
+  
+
+ #contact-bg h5 { 
+  text-align:center;
+  left:0;
+  padding-right: 1.2rem;
+ } 
+
+ .check-box{
+  display:flex;
+  justify-content: center;
+  margin-left: 0;
+  padding: 0;
+ }
+
+ .check-box ul{
+  justify-content: center;
+
+ }
+
+ .check-box li{
+  display: flex;
+ }
+    
+
+ .check-box input{
+  display:inline;
+  padding-left: 0;
+    
+}
+
+.check-box label{
+  display: inline;
+  width:20px;
+  margin-left: 0.5rem;
+}
+
+.btn{
+  left:40%;
+}
+
 
   @media screen and (max-width: 708px){
   
@@ -1028,8 +1015,9 @@ form input{
        
   }
 
-  }
 
+  }
+  }
 
 
   @media screen and (max-width: 640px){
@@ -1054,6 +1042,8 @@ form input{
 
 
   }
+
+
 
   @media screen and (max-width: 575px){
 
@@ -1094,7 +1084,24 @@ margin-right:40%;
   
 
 }
+
+@media screen and (max-width: 557px){
+  form {
+    margin-left: 3%;
+    margin-right: 3%;    
   }
+
+  #address {
+    margin-left: 3%;
+    margin-right: 3%;  
+  }
+
+
+  #address span{
+    font-size: 0.8rem;
+  }
+
+}
 
   @media screen and (max-width: 533px){
    
@@ -1154,6 +1161,40 @@ margin-right:40%;
     
 }
   }
+
+}
+
+@media screen and (max-width: 360px){
+
+  /*form div{
+    margin-right: 0;
+    padding-right:0;
+    margin-left:5px;
+    padding-left: 5px;
+    min-width: 50px;
+    
+  }
+
+  #emailaddress-input{
+    margin-left: 5px;
+  }
+
+  .textarea{
+    margin-left: 7px;
+    width:20%;
+    padding-right:0;
+  }
+ 
+
+  #message-container{
+    margin:0;
+  }
+  #contact-bg h5 { 
+    padding-right:0;
+    margin-left: 0;
+  
+}*/
+
 
 }
 
