@@ -76,6 +76,8 @@ Design will be visited by pet owners, nature enthusiast as well as business owne
 The main colors of the website are black, slightly brighter shade of black and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
 Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used for emphasis and better contrast on dark background. 
 
+![Color scheme] (color-scheme.jpg)
+
 ## Typography
 
 Google Fonts was used to import the fonts chosen for this website.
@@ -84,7 +86,46 @@ Lato was used as a general font for the websit. Acme was used for headers, empha
 
 ## Imagery
 
-Imagery used, inclusive of hero image and background images, was taken from photographer's archive to showcase their work. 
+Images used were selected from pexels to reflect the categories of photographer's focus and they support the themes of pet, product and nature photography. 
+
 
 ## Wireframes
+<details>
+<summary>Home</summary>
+<br>
+Add wireframes here
+</details>
+
+<details>
+<summary>Portfolio</summary>
+<br>
+Add wireframes here
+</details>
+
+<details>
+<summary>Contact</summary>
+<br>
+Add wireframes here
+</details>
+
+
+# Technologies Used 
+
+## Languages Used
+* HTML
+* CSS
+
+## Frameworks, libraries and programs used
+ * GitHub - To save and store files and code for the website in a secure location 
+  * Gitpod - A cloud based IDE used for version control, development of the code to build the website and to commit and push to GithHb
+ * Bootstrap - Bootstrap grid used for responsive layout
+ * Google Fonts - For the typography on the website
+ * Font Awesome - For the iconography on the website
+ * Balsamiq - To create wireframes
+ * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
+ * Am I Responsive  -To show the website image on a range of devices
+
+ 
+ 
+
 
