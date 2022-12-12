@@ -63,30 +63,35 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 15. I want customers to see get the understanding of how I do my photography 
 16. I want customers to see how satisfied other customers are with my service
 17. I want to provide interesting content which will prompt potential customers to hire me
+18. I want to know which photo categories are more ind demand
 
 
 # Design
 
 ## Design choices
 
-Design will be visited by pet owners, nature enthusiast as well as business owners who want to advertise their product to increase their sales and therefore the site needs to cater for all these customers. The site should use profesional with friendly and playful tone. 
+This site  will be visited by pet owners, nature enthusiast as well as business owners who want to advertise their product to increase their sales and therefore the site needs to cater for all these customers. The site should look profesional with friendly and playful/creative tone and include photo examples.
 
 ## Colour scheme
 
-The main colors of the website are black, slightly brighter shade of black and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
-Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used for emphasis and better contrast on dark background. 
+The main colors of the website are black, golden yellow and sligthly brighter shades of those colours. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to catch the visitor's eye while at the same time this warm color indicate  playfullness and evokes positive feeling about the services offered. 
+Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used to emphasise certain text or for better contrast on dark background. 
 
-![Color scheme](readme_docs/color-scheme.jpg)
+![Color scheme](./assets/readme%20_docs/color-scheme.jpg)
 
 ## Typography
 
 Google Fonts was used to import the fonts chosen for this website.
 
-Lato was used as a general font for the websit. Acme was used for headers, emphasised words to keep with the plaful and fiendly theme. San seriff was added in case browser doesnt support the other two fonts. 
+Lato was used as a general font for the website. Acme was used for headers, emphasised words and to keep with the plaful and fiendly theme. San seriff was added in case browser doesnt support the other two fonts. 
+
+![Color scheme](./assets/readme%20_docs/typography_acme.JPG)
+
+![Color scheme](./assets/readme%20_docs/typography_lato.JPG)
 
 ## Imagery
 
-Images used were selected from pexels to reflect the categories of photographer's focus and they support the themes of pet, product and nature photography. 
+Images used were selected from pexels to reflect photographer's main areas of focus and they support the themes of pet, product and nature photography. 
 
 
 ## Wireframes
@@ -114,67 +119,116 @@ Add wireframes here
 The website is comprised of 3 pages: Home, Portfolio and Contact page. 
 
 Home page is devided into 4 sections: Hero image, Title, About and Reviews.
-
 Porfolio page consists of pictures organised in a grid. 
-
 Contact page contains the contact information for the photographer.
 
 ## Logo and Navigations Bar
 
-* This feature is the same across all three pages for consistency and easy navigation
+* Repeats across all three pages for consistency and easy navigation
+* Logo on the left side in contrasting gold color displays photographer's brand clearly
+* Logo item links back to the home page 
+* Links to the other page on the right keep with the conventions expected by the user
+* Navigation menu will turn into hamburger menu on smaller devices 
+* Hamburger menu opens to show list of other pages
+* Hover effect added on the navigation links for easy navigation  
+* Relates to following user stories: 6, 8, 9 
 
-* Logo is positioned on the left side in contrasting gold color and displays photographer's brand
+## Footer
 
-* When the logo is clicked it will bring the user back to the home page which is in line with common conventions 
+* Repeats across all three pages for consistency and easy navigation
+* Logo is centered in the middle  
+* Social media links where more content and photo examples are available is centerd in the middle under the logo 
+* Social media links open in a new tab
+* Social media links get bigger when hovered over for easier navigation 
+* Link description added for accessibility and SEO
+* Relates to following user stories:  2, 5 , 9, 12, 13, 
 
-* The links to the other two pages (portfolio and contact) were places on the right since this is where the user expects it to be and the user can be directed to the other two pages directly if they wish to.
 
-* On smaller devices hamburger menu will be displayed where visitor can click and see what other pages are contained in the website
+## Home page
 
-* The links change background color and font color when a visitor hovers over it which gives visitor a feedback on where they are about to click
-
-*  User stories: 6, 8, 9 
-
-## Hero Image
+### Hero Image
 
 * Used to catch the visitor's eye 
 * Convey the idea of photos the visitor can expect from the photographer
-* Is in accordance with the theme of pet photography
-* Doesn't cover the full screen to leave some space to display futher context (content hinting)
-* User stories: 2, 14, 17
+* Is in accordance with the theme of one of the categories the photographer offers
+* Covers 80% of the viewport to allow content hinting
+* Relates to following user stories: 2, 14, 17
 
 
-## Title 
-* Gives an overview of the photo categories which are the main focus of the photographer
+### Title 
+
+* Gives an overview of the photo categories offered 
+* Provides the hint of the following content
 * Reinforces the brand
-* User stories: 1
+* Relates to following user stories: 1, 2, 15, 
 
-## About
+### Hire button  
 
-* Picture on the left shows what the photographer looks like and makes it more personal
-* Text on the right tells the visitors more about the photograhpher, their experience and the approach they take with their photography
-* On smaller devices text will be stagged below the picture to make it easy to read
-* User stories: 
+* Located under the title 
+* Links to contact page to enable easy nagivation for direct booking
+* Hover effect added to give feedback when pointed at
+* Relates to following user stories: 11, 14
 
-## Reviews
 
-* Two containers of the same size with pictures of the poeople who sent the comment and the star rating
-* The text in the containers  is an example of what customer's opinion is about site owner's service 
-* On smaller devices the two containers get stacked under each other
-* User stories
+### About
 
-Portfolio
-Contact 
-Form 
-Checkbox 
-Address
+* Picture of the photographer on the left to accompanies the text and makes it more personal
+* Text on the right presents photographers experience and approach 
+* Above elemetns get stacked on top of each other for content to be intelligible
+* Some text made bold for emphasis
+* Relates to following user stories: 3, 6, 9, 15, 17
 
+### Reviews
+
+* Two containers of the same size with pictures of reviewers with the star rating
+* Provides the opinion about the site owner's services
+* Containers get stacked on top of each other on smaller devices the two 
+* Relates to following user stories: 4, 6, 9, 16,  
+
+## Portfolio page
+
+* Title makes it clear on which page the visitor currently is 
+* Consist's of one section only for simpler navigation
+* Presents the photographer's work. 
+* Photos organised in 3 column grid for customers to:
+      * spot their desired category quicker and 
+      * see more examples at one glance
+* Photos are displayed in 2 column grid on smaller devices, such as tablet
+* Photos are displayed in one column on even smaller devices, such as mobile phones
+* Relates to following user stories: 1, 2, 6, 
+
+## Contact page 
+
+* Title makes it clear on which page the visitor currently is 
+* Form and address box  cover 1/3 of the screen size 
+* Background image covers the rest of the page for better visual effect
+* Form and and address box is centered on smaller devices
+* Relates to following user stories: 10,13
+
+
+### Form 
+* Allows the site visitor to send their message
+* Input boxes serve to enter visitor's details for questions and bookings
+* Labels mark the above input boxes 
+* Relates to following user stories: 10, 14
+
+
+### Checkbox 
+* Allows visitors to specify their prefered pohoto category 
+* Enables to select multiple categories at once
+* Relates to following user stories: 18
+
+### Address
+* Located under the form 
+* Provides alternative ways of contacting the photographer 
+* Relates to following user stories: 10, 14
 
 
 ## Future implementations
 
 * Change the hero image for the carousel with a series of images using JavaScript
 * A section where the poeple will be able to add their comments directly on the website
+* 'New' section where people will get notified about any new offers or promotions
 
 
 # Technologies Used 
@@ -223,5 +277,4 @@ To Deploy the site using Githu
 10. Press enter 
 
 Alternatively, you can click on Download ZIP
-
 
