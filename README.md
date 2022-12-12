@@ -56,13 +56,12 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 2. I would like to see latest photos photographer posts on social media
 
 
-### Returning Visitor Requirements
+### Site owner's Requirements
 
-1. I want customers to see 
-2. I want customers want to be able to contact me and hire me 
-3. I want to showcase my work
-4. I want customers to see get the understanding of how I do my photography 
-5. I want customers to see how satisfied other customers are with my service
+1. I want to showcase my work to potential customers
+2. I want customers to be able to contact me and hire me 
+3. I want customers to see get the understanding of how I do my photography 
+6. I want customers to see how satisfied other customers are with my service
 
 
 # Design
@@ -76,7 +75,7 @@ Design will be visited by pet owners, nature enthusiast as well as business owne
 The main colors of the website are black, slightly brighter shade of black and golden yellow. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to cath the eye while at the same time this warm color indicate  playfullness and happiness. 
 Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used for emphasis and better contrast on dark background. 
 
-![Color scheme] (color-scheme.jpg)
+![Color scheme](readme_docs/color-scheme.jpg)
 
 ## Typography
 
