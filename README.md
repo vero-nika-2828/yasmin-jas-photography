@@ -52,16 +52,17 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 
 ### Returning Visitor Requirements
 
-1. I would like to be able to book the photographer directly
-2. I would like to see latest photos photographer posts on social media
+11. I would like to be able to book the photographer directly
+12. I would like to see latest photos photographer posts on social media
 
 
 ### Site owner's Requirements
 
-1. I want to showcase my work to potential customers
-2. I want customers to be able to contact me and hire me 
-3. I want customers to see get the understanding of how I do my photography 
-6. I want customers to see how satisfied other customers are with my service
+13. I want to showcase my work to potential customers
+14. I want customers to be able to contact me and hire me 
+15. I want customers to see get the understanding of how I do my photography 
+16. I want customers to see how satisfied other customers are with my service
+17. I want to provide interesting content which will prompt potential customers to hire me
 
 
 # Design
@@ -132,15 +133,49 @@ Contact page contains the contact information for the photographer.
 
 * The links change background color and font color when a visitor hovers over it which gives visitor a feedback on where they are about to click
 
-*  6, 8, 9 
+*  User stories: 6, 8, 9 
 
 ## Hero Image
 
-Hero image
+* Used to catch the visitor's eye 
+* Convey the idea of photos the visitor can expect from the photographer
+* Is in accordance with the theme of pet photography
+* Doesn't cover the full screen to leave some space to display futher context (content hinting)
+* User stories: 2, 14, 17
+
+
+## Title 
+* Gives an overview of the photo categories which are the main focus of the photographer
+* Reinforces the brand
+* User stories: 1
+
+## About
+
+* Picture on the left shows what the photographer looks like and makes it more personal
+* Text on the right tells the visitors more about the photograhpher, their experience and the approach they take with their photography
+* On smaller devices text will be stagged below the picture to make it easy to read
+* User stories: 
+
+## Reviews
+
+* Two containers of the same size with pictures of the poeople who sent the comment and the star rating
+* The text in the containers  is an example of what customer's opinion is about site owner's service 
+* On smaller devices the two containers get stacked under each other
+* User stories
+
+Portfolio
+Contact 
+Form 
+Checkbox 
+Address
+
+
 
 ## Future implementations
 
 * Change the hero image for the carousel with a series of images using JavaScript
+* A section where the poeple will be able to add their comments directly on the website
+
 
 # Technologies Used 
 
@@ -185,7 +220,7 @@ To Deploy the site using Githu
 7. Change the current working directory to the location you want to use for the cloned directory
 8. Type 'git clone' into the terminal
 9. Paste the link you copied in step 5
-10.Press enter 
+10. Press enter 
 
 Alternatively, you can click on Download ZIP
 
