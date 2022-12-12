@@ -62,7 +62,8 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 14. I want customers to be able to contact me and hire me 
 15. I want customers to see get the understanding of how I do my photography 
 16. I want customers to see how satisfied other customers are with my service
-17. I want to provide interesting content which will prompt potential customers to hire me
+17. I want to provide interesting content which will prompt potential customers to 
+hire me
 18. I want to know which photo categories are more ind demand
 
 
@@ -85,9 +86,9 @@ Google Fonts was used to import the fonts chosen for this website.
 
 Lato was used as a general font for the website. Acme was used for headers, emphasised words and to keep with the plaful and fiendly theme. San seriff was added in case browser doesnt support the other two fonts. 
 
-![Color scheme](./assets/readme%20_docs/typography_acme.JPG)
+![Typography Acme](./assets/readme%20_docs/typography_acme.JPG)
 
-![Color scheme](./assets/readme%20_docs/typography_lato.JPG)
+![Typography Lato](./assets/readme%20_docs/typography_lato.JPG)
 
 ## Imagery
 
@@ -133,6 +134,11 @@ Contact page contains the contact information for the photographer.
 * Hover effect added on the navigation links for easy navigation  
 * Relates to following user stories: 6, 8, 9 
 
+![Logo and Navigation bar](./
+assets/readme%20_docs/header_navbar.JPG)
+
+![Logo and Navigation bar for smaller devices](./assets/readme%20_docs/header_navbar_small_devices.JPG)
+
 ## Footer
 
 * Repeats across all three pages for consistency and easy navigation
@@ -143,6 +149,7 @@ Contact page contains the contact information for the photographer.
 * Link description added for accessibility and SEO
 * Relates to following user stories:  2, 5 , 9, 12, 13, 
 
+![Footer](./assets/readme%20_docs/footer.JPG)
 
 ## Home page
 
@@ -154,6 +161,8 @@ Contact page contains the contact information for the photographer.
 * Covers 80% of the viewport to allow content hinting
 * Relates to following user stories: 2, 14, 17
 
+![Hero image](./assets/readme%20_docs/hero_image.JPG)
+
 
 ### Title 
 
@@ -162,6 +171,8 @@ Contact page contains the contact information for the photographer.
 * Reinforces the brand
 * Relates to following user stories: 1, 2, 15, 
 
+![Title](./assets/readme%20_docs/title.JPG)
+
 ### Hire button  
 
 * Located under the title 
@@ -169,21 +180,27 @@ Contact page contains the contact information for the photographer.
 * Hover effect added to give feedback when pointed at
 * Relates to following user stories: 11, 14
 
+![Hire me](./assets/readme%20_docs/hireme.JPG)
 
 ### About
 
-* Picture of the photographer on the left to accompanies the text and makes it more personal
+* Picture of the photographer on the left accompanies the text and makes it more personal
 * Text on the right presents photographers experience and approach 
 * Above elemetns get stacked on top of each other for content to be intelligible
-* Some text made bold for emphasis
+* Some text made bold for emphasis and to make content intersting
 * Relates to following user stories: 3, 6, 9, 15, 17
+
+![About section](./assets/readme%20_docs/about.JPG)
 
 ### Reviews
 
 * Two containers of the same size with pictures of reviewers with the star rating
 * Provides the opinion about the site owner's services
-* Containers get stacked on top of each other on smaller devices the two 
+* Containers get stacked on top of each other on smaller devices 
 * Relates to following user stories: 4, 6, 9, 16,  
+
+![Reviews](./assets/readme%20_docs/reviews.JPG)
+
 
 ## Portfolio page
 
@@ -195,6 +212,7 @@ Contact page contains the contact information for the photographer.
       * see more examples at one glance
 * Photos are displayed in 2 column grid on smaller devices, such as tablet
 * Photos are displayed in one column on even smaller devices, such as mobile phones
+* Alt description added to images for accessibility 
 * Relates to following user stories: 1, 2, 6, 
 
 ## Contact page 
