@@ -279,7 +279,14 @@ Contact page contains the contact information for the photographer.
 ## Deployment 
 The site is deployed using GitHub Pages - ------>link to the website<------
 
-To Deploy the site using Githu
+To Deploy the site using GitHub ppages:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project,
+3. Click the setting button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please  note that this process may take a few minutes before site goes live.
 
 ## Local Development
 
