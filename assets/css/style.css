@@ -311,16 +311,27 @@ h6 i{
 }
 
 .reviewer-box{
-  width: 25vw;
-  height: 45vh;
+  width: 25%;
+  height: 60%;
   border-radius: 30px;
+  padding:2rem;
   box-shadow: 0 4px 8px 0 rgba(241, 240, 240, 0.534);
   background-color: white;
   opacity:0.9;
   color:#000000; 
-  position: relative;
+  position: absolute;
   z-index:2;
     
+}
+
+.reviewerbox-left{
+  left: 15%;
+  top: 20%;
+}
+
+.reviewerbox-right{
+  right: 15%;
+  top: 20%;
 }
 
 .review-left{
@@ -620,21 +631,42 @@ textarea{
 }
 
 @media screen and (max-width: 1590px){
-  .review-background{
-    height: 850px;
+ .review-background{
+    height: 760px;
   }
   
   .review-container {
-    bottom: 830px;
+    bottom: 740px;
 
   }
 
   .reviewer-box {
-    height: 54vh;
+    height: 60%;
     padding-bottom:1rem;
     
-  }
+  } 
 }
+
+
+
+@media screen and (max-width: 1382px){
+  .reviewer-box{
+    width: 30%; 
+    
+  }
+
+  .reviewerbox-left{
+    left: 12%;
+    top: 20%;
+}
+
+.reviewerbox-right{
+  right: 12%;
+  top: 20%;
+}
+}
+
+
 
 @media screen and (max-width: 1350px){
    
@@ -655,14 +687,22 @@ textarea{
 }
 
 
-@media screen and (max-width: 1281px){
 
-  .reviewer-box {
-    height: 27vh;
-    width:  100vh;
-    margin: 3rem 8rem 2rem 4rem;
-        
+@media screen and (max-width: 1180px){
+  .reviewer-box{
+    height: 65%; 
   }
+
+  .reviewerbox-left{
+    left: 12%;
+    
+}
+
+.reviewerbox-right{
+  right: 12%;
+ 
+}
+
 
 }
 
@@ -702,17 +742,24 @@ textarea{
   
   
   .reviewer-box {
-    height: auto;
-    width:  70vw;
-    margin: 2rem 6rem 2rem 6rem;
-        
+    height: 30%;
+    width:  80%;
+            
   }
 
-  .reviewer{
-    height: 6rem;
-    width: 6rem;
-  
-    }
+  .reviewerbox-left{
+    top: 15%;
+    right: 11%;
+    left: unset;
+  }
+
+
+  .reviewerbox-right {
+    top: 55%;
+    right: 11%;
+  }
+
+
 
 }
 
@@ -829,7 +876,11 @@ form input{
 
     
   @media screen and (max-width: 873px){
-
+    .reviewer-box{
+      height: 35%; 
+      
+    }
+  
      .photo1{
         grid-column: 1;
         grid-row: 1 / span 2;
@@ -989,61 +1040,29 @@ form input{
 .btn{
   left:40%;
 }
+  }
+ 
+ 
 
-
-  @media screen and (max-width: 708px){
-  
-
-   .review-background{
-    height: 1050px;
-  
+@media screen and (max-width: 695px){
+  .review-background{
+    height: 1100px;
   }
   
   .review-container {
-    bottom: 1050px;
+    bottom: 1100px;
 
   }
   
-  
-  
-  .reviewer-box {
-    height: auto;
-    width:  auto;
- 
-       
-  }
-
-
-  }
-  }
-
-
-  @media screen and (max-width: 640px){
-    .review-background{
-      height: 1100px;
+  .reviewer-box{
+    height: 35%; 
     
-    }
-    
-    .review-container {
-      bottom: 1100px;
-      margin-right: 0;
-      margin-left: 3.5rem;
-  
-    }
-
-     
-    .reviewer-box {
-       margin: 2rem 0;
-       width:70vw;
-       
   }
 
-
-  }
-
+}
 
 
-  @media screen and (max-width: 575px){
+@media screen and (max-width: 575px){
 
 #logo{
   font-size:1.3rem;
@@ -1084,6 +1103,23 @@ margin-right:40%;
 }
 
 @media screen and (max-width: 557px){
+
+ 
+ .review-background{
+    height: 1300px;
+  }
+  
+  .review-container {
+    bottom: 1300px;
+
+  }
+  
+  .reviewerbox-left{
+      top: 12%;
+  }
+  
+
+ 
   form {
     margin-left: 3%;
     margin-right: 3%;    
@@ -1101,50 +1137,7 @@ margin-right:40%;
 
 }
 
-  @media screen and (max-width: 533px){
-   
-    .review-background{
-      height: 1300px;
-    
-    }
-    
-    .review-container {
-       bottom: 1300px;
-   
-      margin-left: 2rem;
-      
-    }
-
-     
-    .reviewer-box {
-       margin: 2rem 0;
-       
-  }
-
-  @media screen and (max-width: 423px){
-   
-    .review-background{
-      height: 1200px;
-    
-    }
-    
-    .review-container {
-      width:auto;
-      bottom: 1200px;
-      margin:0;
-     
-     
-    }
-
-     
-    .reviewer-box {
-      width:90vw;
-      margin: 1.5rem 0;
-           
-  }
-  }
-
-  @media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
     
   #portfolio {
     display: block;
@@ -1160,7 +1153,64 @@ margin-right:40%;
 }
   }
 
-}
+
+
+  @media screen and (max-width: 457px){
+   
+    .review-background{
+      height: 1500px;
+    }
+    
+    .review-container {
+      bottom: 1500px;
+  
+    }
+ 
+            
+  }
+  
+
+  @media screen and (max-width: 416px){
+   
+    .review-background{
+      height: 1900px;
+    }
+    
+    .review-container {
+      bottom: 1900px;
+  
+    }
+
+    .reviewer-box{
+      height: 40%; 
+      
+    }
+
+
+    
+    .reviewer-box img{
+      left: 10%;
+    }
+
+    .reviewer-box h6{
+      position:relative;
+      top:22%;
+      left:-40%;
+      
+    }
+
+    .reviewer-box span {
+      position:relative;
+      top:22%;
+      left:-40%;
+      
+    }
+  
+ 
+            
+  }  
+
+
 
 @media screen and (max-width: 360px){
 
