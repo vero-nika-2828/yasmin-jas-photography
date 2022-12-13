@@ -128,14 +128,13 @@ Contact page contains the contact information for the photographer.
 * Repeats across all three pages for consistency and easy navigation
 * Logo on the left side in contrasting gold color displays photographer's brand clearly
 * Logo item links back to the home page 
-* Links to the other page on the right keep with the conventions expected by the user
+* Links to other pages ar placed on the right to maintain the conventions expected by the user
 * Navigation menu will turn into hamburger menu on smaller devices 
 * Hamburger menu opens to show list of other pages
 * Hover effect added on the navigation links for easy navigation  
 * Relates to following user stories: 6, 8, 9 
 
-![Logo and Navigation bar](./
-assets/readme%20_docs/header_navbar.JPG)
+![Logo and Navigation bar](./assets/readme%20_docs/header_navbar.JPG)
 
 ![Logo and Navigation bar for smaller devices](./assets/readme%20_docs/header_navbar_small_devices.JPG)
 
@@ -143,7 +142,7 @@ assets/readme%20_docs/header_navbar.JPG)
 
 * Repeats across all three pages for consistency and easy navigation
 * Logo is centered in the middle  
-* Social media links where more content and photo examples are available is centerd in the middle under the logo 
+* Social media links, where more content and photo examples are available, is centerd in the middle under the logo 
 * Social media links open in a new tab
 * Social media links get bigger when hovered over for easier navigation 
 * Link description added for accessibility and SEO
@@ -208,12 +207,14 @@ assets/readme%20_docs/header_navbar.JPG)
 * Consist's of one section only for simpler navigation
 * Presents the photographer's work. 
 * Photos organised in 3 column grid for customers to:
-      * spot their desired category quicker and 
-      * see more examples at one glance
+   * spot their desired category quicker and 
+    * see more examples at one glance
 * Photos are displayed in 2 column grid on smaller devices, such as tablet
 * Photos are displayed in one column on even smaller devices, such as mobile phones
 * Alt description added to images for accessibility 
 * Relates to following user stories: 1, 2, 6, 
+
+![Portfolio](./assets/readme%20_docs/portfolio.JPG)
 
 ## Contact page 
 
@@ -223,24 +224,30 @@ assets/readme%20_docs/header_navbar.JPG)
 * Form and and address box is centered on smaller devices
 * Relates to following user stories: 10,13
 
+![Contact page title](./assets/readme%20_docs/contact-page-title.JPG)
+![Contact page](./assets/readme%20_docs/contact-page.JPG)
 
 ### Form 
 * Allows the site visitor to send their message
 * Input boxes serve to enter visitor's details for questions and bookings
-* Labels mark the above input boxes 
+* Labels mark the above mentioned input boxes 
 * Relates to following user stories: 10, 14
 
+![Form](./assets/readme%20_docs/form.JPG)
 
 ### Checkbox 
 * Allows visitors to specify their prefered pohoto category 
 * Enables to select multiple categories at once
 * Relates to following user stories: 18
 
+![Checkbox](./assets/readme%20_docs/checkbox.JPG)
+
 ### Address
 * Located under the form 
 * Provides alternative ways of contacting the photographer 
 * Relates to following user stories: 10, 14
 
+![Checkbox](./assets/readme%20_docs/address.JPG)
 
 ## Future implementations
 
@@ -256,15 +263,16 @@ assets/readme%20_docs/header_navbar.JPG)
 * CSS
 
 ## Frameworks, libraries and programs used
- * GitHub - To save and store files and code for the website in a secure location 
-  * Gitpod - A cloud based IDE used for version control, development of the code to build the website and to commit and push to GithHb
- * Bootstrap - Bootstrap grid used for responsive layout
- * Google Fonts - For the typography on the website
- * Font Awesome - For the iconography on the website
- * Balsamiq - To create wireframes
+ * [GitHub](https://github.com/vero-nika-2828/yasmin-jas-photography) - To save and store files and code for the website in a secure location 
+  * [Gitpod](https://gitpod.io/workspaces) - A cloud based IDE used for version control, development of the code to build the website and to commit and push to GithHb
+ * [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Bootstrap grid used for responsive layout
+ * [Google Fonts](https://fonts.google.com/) - For the typography on the website
+ * [Font Awesome](https://fontawesome.com/) - For the iconography on the website
+ * [Balsamiq](https://balsamiq.com/) - To create wireframes
  * Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling
- * Am I Responsive  -To show the website image on a range of devices
+ * [Am I Responsive](https://ui.dev/amiresponsive)  -To show the website image on a range of devices
 
+# Testing
 
 # Deployment & local development
 
@@ -296,3 +304,82 @@ To Deploy the site using Githu
 
 Alternatively, you can click on Download ZIP
 
+# Credits
+
+## Media
+
+Images were taken from [Pexels](https://www.pexels.com/) and were posted by these authors:
+
+* Anastasiya Gepp
+  * [A girl with a rabbit (Hero Image)](https://www.pexels.com/photo/girl-lying-on-white-surface-petting-gray-rabbit-1462634/)
+
+   * [A girl holding grey rabbit ](https://www.pexels.com/photo/smiling-girl-holding-gray-rabbit-1462636//)
+
+   * [A girl with a black rabbit ](https://www.pexels.com/photo/girl-holding-black-rabbit-1462635/)
+
+* Yaroslav-Shuraev
+  * [A girl giving water to a dog ](https://www.pexels.com/photo/woman-in-yellow-knit-cap-sitting-beside-siberian-husky-9632115/)
+
+   * [A gril and a dog in a park ](https://www.pexels.com/photo/close-up-shot-of-a-woman-and-her-dog-lying-down-on-a-picnic-blanket-9632605/)
+
+
+* Alesia Kozik
+  * [Oil on a board and leaf ](https://www.pexels.com/photo/close-up-photo-of-brown-glass-on-a-tray-7797104/)
+
+   * [Oils ](https://www.pexels.com/photo/photo-of-brown-bottles-7797449/)
+
+
+ * Gustavo Fring
+   * [A couple with a dog](https://www.pexels.com/photo/smiling-couple-touching-pet-on-lawn-4005078/)
+   * [A-couple with dog in the middle](https://www.pexels.com/photo/loving-couple-having-rest-with-dog-on-lawn-4005082/)
+
+* Joan Montaner
+  * [A dog in frong of waterfall](https://www.pexels.com/photo/white-and-black-dog-standing-on-stone-1694838/)
+
+
+* Tranmautritam
+  * [A girl on a bed with two cats](https://www.pexels.com/photo/woman-lying-on-bed-with-two-cats-2215599/)
+
+
+* Stein Egil Liland
+  * [A lake with houses](https://www.pexels.com/photo/woman-lying-on-bed-with-two-cats-2215599/)
+
+* Quang Nguyen Vinh
+  * [A boat on a lake ](https://www.pexels.com/photo/photo-of-a-boat-on-a-river-2178175/)
+
+* Cmonphotography
+  * [A lake with a mountain ](https://www.pexels.com/photo/peaceful-scenery-1809653/)
+
+* Danila Giancipoli
+  * [A river with hills in the background ](https://www.pexels.com/photo/calm-blue-water-2242171/)
+
+
+* Dominika Roseclay
+  * [Oil on a woodboard ](https://www.pexels.com/photo/small-essential-oil-bottle-on-decorative-tree-trunk-5462207/)
+
+* Andrea- Pacquadio
+  * [A girl holding a camera](https://www.pexels.com/photo/white-and-black-dog-standing-on-stone-1694838/)
+
+* Pixabay
+  * [Fjords](https://www.pexels.com/photo/clouds-daylight-foggy-lake-533854/)
+
+* Italo Melo
+  * [Joe Black (Reviewer 1)](https://www.pexels.com/photo/man-wearing-blue-crew-neck-t-shirt-2379005/)
+
+* Lucas Pezeta
+  * [Katherine Smith (Reviewer 2)](https://www.pexels.com/photo/woman-wearing-black-framed-eyeglasses-2118708/)
+
+## Code
+For hambuger navigation menu I took inspiration from [this tutorial](https://www.youtube.com/watch?v=xXze-haVm7g), and I ajdusted the code heavily in order to fit the needs of my website
+
+## Effect
+The grey style effect on the pictures was taken from [W3C](https://www.w3schools.com/w3css/w3css_effects.asp)
+
+
+## Aknowledgement
+
+I would like to aknowledge following peole who helped me along the way in completing this project: 
+* My Code Institute mentor, Mitko Bachvarov, for his valuable advice and comprehensive guidance
+* My tutor for being so patient with me and being there for me everytime I had some questions
+* Fellow Code Institue students and staff for taking time to answer my questions on Slack
+* Oisin from Tutor support for helping me with an issue I came across in my project
