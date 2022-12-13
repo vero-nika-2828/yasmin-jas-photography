@@ -362,7 +362,6 @@ h6 i{
   border: solid 1px;
   border-radius: 50%;
   float:left;
-  padding: 2px;
   margin-right:2rem;
  
   }
@@ -951,6 +950,7 @@ form input{
       transition: 0.3s, ease-in;
       position: absolute;
       width:100%;
+      padding-left: 0;
      
      
       
@@ -961,16 +961,17 @@ form input{
     
     
       #nav-menu li{
+        display: block;
+        width:100%;
+        
    
-      margin-left:40%;
-      margin-right:40%;
         
      }
   
   
     #nav-menu a{
       display:flex;
-      text-align: center;
+      justify-content: center;
           }
   
     nav input[type="checkbox"]:checked ~ #nav-menu{ visibility: visible;}
@@ -1068,15 +1069,8 @@ form input{
   font-size:1.3rem;
   margin-left:0;
 }
-#nav-menu li{
-      /*float:left;
-      margin-right:0;
-      list-style-type: none;*/
-     
-margin-left:30%;
-margin-right:40%;
-}
-  
+
+
     #about-pic {
       width:100%;
             
