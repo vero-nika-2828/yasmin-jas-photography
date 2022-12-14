@@ -392,7 +392,7 @@ h6 i{
   height:100%;
   margin: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);   
+  grid-template-columns: repeat(1fr, 1fr, 1fr);   
   grid-auto-rows: 20rem;
   row-gap: 10px;
   column-gap: 10px;
@@ -463,7 +463,7 @@ h6 i{
 
 .photo10{
   grid-column:2;
-  grid-row: 5 span;
+  grid-row: 5;
 }
 
 .photo11{
