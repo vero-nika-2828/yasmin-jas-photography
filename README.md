@@ -274,6 +274,39 @@ Contact page contains the contact information for the photographer.
 
 # Testing
 
+## Automated Testing 
+
+Validators here
+https://github.com/kera-cudmore/Found-In-Translation/blob/main/TESTING.md#found-in-translation----testing-documentation
+
+https://github.com/kera-cudmore/Found-In-Translation/blob/main/TESTING.md#Full-Testing
+
+### CSS Validator (W3C)
+
+### Lighthouse
+
+## Manual testing
+
+### Testing user stories 
+### Full Testing
+
+## Bugs
+
+### Solved bugs 
+ |  Expected |  Bug |  Fix |
+ |  :---| :---|  :---|
+ |  Hero image should be directly under the header | Header went over the hero image | Height property in navigation bar was updated  to 100% and that pushed the image lower |
+ |The website should fit the width of a respective  viewport | The sroll bar appeared at the bottom so it was necessary to move right and left to view the whole content. This was due to 'About section' was going over the set viewport width | Margin of  'About section'  was set to 0
+ |Footer should cover the whole bottom of the page | There was a white space under the footer which was cause by the content of reviewer-boxes in 'Review section' overflowing | The height of the review-background was ajdusted to give the text more space. The review-container was ajdusted as well to fit the section without excessive free space |
+ | Hamburger menu items should be centered | The menu items were all starting from the same level on the left which made porfolio to stick out | The parent navigation menue list was given display property with value block. The children a elements were given propety display with value flex and justify content property with value center which aligned the links into the middle of the screen |
+ | When users of smaller screen touch the options from Hamburger navigation menu it should change the color of the whole screen from left to right | There was a space on the left when the color changed due to the ul element in header section had padding applied | Padding left property for ul element was removed |
+ |  Two review boxes should get smaller when the viewport gets smaller and text should align accodingly | For the wieports under 411 px header and star rating were getting  distorted and the letters as well as stars were getting under each other and lost original alignment | Parent container was of the header and start rating was updated to block and  header and star rating were given display property with  value flex which pushed these two elements  under the picture |
+ | The checkbox  for the photo type selection should get stacked under each other on the devices which are narrower than 800px | The checkboex inputs and the labels were not aligned neither vertically or horizontally |  The checkbox inputs were wrapped into the unordered list and displayed as a block 
+
+
+### Known bugs
+There are not any known bugs
+
 # Deployment & local development
 
 ## Deployment 
