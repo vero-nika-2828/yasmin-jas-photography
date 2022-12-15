@@ -99,19 +99,28 @@ Images used were selected from pexels to reflect photographer's main areas of fo
 <details>
 <summary>Home</summary>
 <br>
-Add wireframes here
+
+![Home Mobile](./assets/readme%20_docs/wireframes/home_mobile.JPG) 
+![Home Tablet](./assets/readme%20_docs/wireframes/home_tablet.png) 
+![Home Desktop](./assets/readme%20_docs/wireframes//home_desktop.png) 
 </details>
 
 <details>
 <summary>Portfolio</summary>
 <br>
-Add wireframes here
+
+![Portfolio Mobile](./assets/readme%20_docs/wireframes/portfolio_Mobile.JPG) 
+![Portfolio  Tablet](./assets/readme%20_docs/wireframes/portfolio_tablet.png) 
+![Portfolio  Desktop](./assets/readme%20_docs/wireframes/portfolio_desktop.png) 
 </details>
 
 <details>
 <summary>Contact</summary>
 <br>
-Add wireframes here
+
+![Contact Mobile](./assets/readme%20_docs/wireframes/contact_mobile.png) 
+![Contact Tablet](./assets/readme%20_docs/wireframes/contact_tablet.png) 
+![Contact Desktop](./assets/readme%20_docs/wireframes/contact_desktop.png) 
 </details>
 
 
@@ -286,7 +295,7 @@ Contact page contains the contact information for the photographer.
 <summary>Home page</summary>
 <br>
 
-![Title](./assets/readme%20_docs/user%20testing/title.JPG)
+![Home page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Home%20page.JPG)
 
 </details> 
 
@@ -294,7 +303,7 @@ Contact page contains the contact information for the photographer.
 <summary>Portfolio</summary>
 <br>
 
-![Title](./assets/readme%20_docs/user%20testing/title.JPG)
+![Portfolio page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Portfolio%20page.JPG)
 
 </details> 
 
@@ -302,7 +311,7 @@ Contact page contains the contact information for the photographer.
 <summary>Contact page</summary>
 <br>
 
-![Title](./assets/readme%20_docs/user%20testing/title.JPG)
+![Contact page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Contact%20page.JPG)
 
 </details> 
 
@@ -310,7 +319,7 @@ Contact page contains the contact information for the photographer.
 
 ### Testing user stories 
 
-1. I want to be able to quickly identify what categories of photography the photographer offers
+1 .I want to be able to quickly identify what categories of photography the photographer offers
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
@@ -328,7 +337,7 @@ Contact page contains the contact information for the photographer.
 
 2. I want to be able to view photographers work to see whether that fits my requirements and expectations
 
-AND
+   AND
 
 13. I want to showcase my work to potential customers
 
@@ -347,7 +356,7 @@ AND
 
 3. I want to be able to find out more about the photographer 
 
-AND
+   AND  
 
 15. I want customers to see get the understanding of how I do my photography 
 
@@ -366,7 +375,7 @@ AND
 
 4. I want to see opinions of other customers
 
-AND
+   AND
 
 16. I want customers to see how satisfied other customers are with my service
 
@@ -553,11 +562,169 @@ AND
 | Footer| Displays links to social media where visitors can see more photos |  Works as expected |
 
 18. I want to know which photo categories are more in demand
+
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
 | Chekbox| When visitor clicks on which photo type they prefer it will provide site owner data about which photography the visitors are interested in |  Works as expected |
 
 ### Full Testing
+
+The website was tested on following devices
+
+<details>
+<summary>Desktop 1400px wide</summary>
+<ul>
+
+ <details>
+ <summary>Home page</summary>
+ 
+![Home page 1](./assets/readme%20_docs/full-testing/Desktop/Home1.JPG)
+![Home page 2](./assets/readme%20_docs/full-testing/Desktop/Home2.JPG)
+![Home page 3](./assets/readme%20_docs/full-testing/Desktop/Home3.JPG)
+![Home page 4](./assets/readme%20_docs/full-testing/Desktop/Home4.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Portfolio</summary>
+ 
+![Portfolio 1](./assets/readme%20_docs/full-testing/Desktop/Portfolio.JPG)
+![Portfolio 2](./assets/readme%20_docs/full-testing/Desktop/Portfolio2.JPG)
+![Portfolio 3](./assets/readme%20_docs/full-testing/Desktop/Portfolio3.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Contact</summary>
+ 
+![Contact 1](./assets/readme%20_docs/full-testing/Desktop/Contact1.JPG)
+![Contact 2](./assets/readme%20_docs/full-testing/Desktop/Contact2.JPG)
+
+
+ </details> 
+
+</ul>
+</details> 
+
+
+<details>
+<summary>Nest Hub Max 1280px wide</summary>
+<ul>
+
+ <details>
+ <summary>Home page</summary>
+ 
+![Home page 1](./assets/readme%20_docs/full-testing/NestHubMax/Home1.JPG)
+![Home page 2](./assets/readme%20_docs/full-testing/NestHubMax/Home2.JPG)
+![Home page 3](./assets/readme%20_docs/full-testing/NestHubMax/Home3.JPG)
+![Home page 4](./assets/readme%20_docs/full-testing/NestHubMax/Home4.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Portfolio</summary>
+ 
+![Portfolio 1](./assets/readme%20_docs/full-testing/NestHubMax/Portfolio1.JPG)
+![Portfolio 2](./assets/readme%20_docs/full-testing/NestHubMax/Portfolio2.JPG)
+![Portfolio 3](./assets/readme%20_docs/full-testing/NestHubMax/Portfolio3.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Contact</summary>
+ 
+![Contact 1](./assets/readme%20_docs/full-testing/NestHubMax/Contact1.JPG)
+![Contact 2](./assets/readme%20_docs/full-testing/NestHubMax/Contact2.JPG)
+
+
+ </details> 
+
+</ul>
+</details> 
+
+
+<details>
+<summary>Surface Duo 540px wide</summary>
+<ul>
+
+ <details>
+ <summary>Home page</summary>
+ 
+![Home page 1](./assets/readme%20_docs/full-testing/SurfaceDuo/Home1.JPG)
+![Home page 2](./assets/readme%20_docs/full-testing/SurfaceDuo/Home2.JPG)
+![Home page 3](./assets/readme%20_docs/full-testing/SurfaceDuo/Home3.JPG)
+![Home page 4](./assets/readme%20_docs/full-testing/SurfaceDuo/Home4.JPG)
+![Home page 5](./assets/readme%20_docs/full-testing/SurfaceDuo/Home5.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Portfolio</summary>
+ 
+![Portfolio 1](./assets/readme%20_docs/full-testing/SurfaceDuo/Portfolio1.JPG)
+![Portfolio 2](./assets/readme%20_docs/full-testing/SurfaceDuo/Portfolio2.JPG)
+![Portfolio 3](./assets/readme%20_docs/full-testing/SurfaceDuo/Portfolio3.JPG)
+![Portfolio 4](./assets/readme%20_docs/full-testing/SurfaceDuo/Portfolio4.JPG)
+![Portfolio 5](./assets/readme%20_docs/full-testing/SurfaceDuo/Portfolio5.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Contact</summary>
+ 
+![Contact 1](./assets/readme%20_docs/full-testing/SurfaceDuo/Contact1.JPG)
+![Contact 2](./assets/readme%20_docs/full-testing/SurfaceDuo/Contact2.JPG)
+![Contact 3](./assets/readme%20_docs/full-testing/SurfaceDuo/Contact3.JPG)
+
+ </details> 
+
+</ul>
+</details> 
+
+
+
+<details>
+<summary>iPhone SE 375px wide</summary>
+<ul>
+
+ <details>
+ <summary>Home page</summary>
+ 
+![Home page 1](./assets/readme%20_docs/full-testing/iPhone/Home1.JPG)
+![Home page 2](./assets/readme%20_docs/full-testing/iPhone/Home2.JPG)
+![Home page 3](./assets/readme%20_docs/full-testing/iPhone/Home3.JPG)
+![Home page 4](./assets/readme%20_docs/full-testing/iPhone/Home4.JPG)
+![Home page 5](./assets/readme%20_docs/full-testing/iPhone/Home5.JPG)
+![Home page 6](./assets/readme%20_docs/full-testing/iPhone/Home6.JPG)
+
+
+ </details> 
+
+ <details>
+ <summary>Portfolio</summary>
+ 
+![Portfolio 1](./assets/readme%20_docs/full-testing/iPhone/Porfolio1.JPG)
+![Portfolio 2](./assets/readme%20_docs/full-testing/iPhone/Porfolio2.JPG)
+![Portfolio 3](./assets/readme%20_docs/full-testing/iPhone/Porfolio3.JPG)
+![Portfolio 4](./assets/readme%20_docs/full-testing/iPhone/Porfolio4.JPG)
+![Portfolio 5](./assets/readme%20_docs/full-testing/iPhone/Porfolio5.JPG)
+![Portfolio 6](./assets/readme%20_docs/full-testing/iPhone/Porfolio6.JPG)
+![Portfolio 7](./assets/readme%20_docs/full-testing/iPhone/Porfolio7.JPG)
+
+ </details> 
+
+ <details>
+ <summary>Contact</summary>
+ 
+![Contact 1](./assets/readme%20_docs/full-testing/iPhone/Contact1.JPG)
+![Contact 2](./assets/readme%20_docs/full-testing/iPhone/Contact2.JPG)
+![Contact 3](./assets/readme%20_docs/full-testing/iPhone/Contact3.JPG)
+
+ </details> 
+
+</ul>
+</details> 
+
 
 ## Bugs
 
