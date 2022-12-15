@@ -1,7 +1,9 @@
 # *Yasmin Jas* Photography
 
----->placeholder -website link
------>placeholder website examples 
+![Overview](./assets/readme%20_docs/project_image.JPG)
+
+[Link to the page](https://vero-nika-2828.github.io/yasmin-jas-photography/)
+
 
 # Project Overview
 
@@ -64,19 +66,19 @@ Yasmin is a devoted photographer who has been capturing beautiful moments as wel
 16. I want customers to see how satisfied other customers are with my service
 17. I want to provide interesting content which will prompt potential customers to 
 hire me
-18. I want to know which photo categories are more ind demand
+18. I want to know which photo categories are more in demand
 
 
 # Design
 
 ## Design choices
 
-This site  will be visited by pet owners, nature enthusiast as well as business owners who want to advertise their product to increase their sales and therefore the site needs to cater for all these customers. The site should look profesional with friendly and playful/creative tone and include photo examples.
+This site  will be visited by pet owners, nature enthusiast as well as business owners who want to advertise their product to increase their sales and therefore the site needs to cater for all these customers. The site should look professional with friendly and playful/creative tone and include photo examples.
 
 ## Colour scheme
 
-The main colors of the website are black, golden yellow and sligthly brighter shades of those colours. Black colors were used in order to indicate profesioanlity and elegance while gold was used to add a bit of contrast in order to catch the visitor's eye while at the same time this warm color indicate  playfullness and evokes positive feeling about the services offered. 
-Text color is mainly black for better contrast. White, yellow and brigther shades of yellow were used to emphasise certain text or for better contrast on dark background. 
+The main colors of the website are black, golden yellow and slightly brighter shades of those colours. Black colors were used in order to indicate professionality and elegance while gold was used to add a bit of contrast in order to catch the visitor's eye while at the same time this warm color indicate  playfulness and evokes positive feeling about the services offered. 
+Text color is mainly black for better contrast. White, yellow and brighter shades of yellow were used to emphasise certain text or for better contrast on dark background. 
 
 ![Color scheme](./assets/readme%20_docs/color-scheme.jpg)
 
@@ -84,7 +86,7 @@ Text color is mainly black for better contrast. White, yellow and brigther shade
 
 Google Fonts was used to import the fonts chosen for this website.
 
-Lato was used as a general font for the website. Acme was used for headers, emphasised words and to keep with the plaful and fiendly theme. San seriff was added in case browser doesnt support the other two fonts. 
+Lato was used as a general font for the website. Acme was used for headers, emphasised words and to keep with the playful and friendly theme. San seriff was added in case browser doesn't support the other two fonts. 
 
 ![Typography Acme](./assets/readme%20_docs/typography_acme.JPG)
 
@@ -100,36 +102,31 @@ Images used were selected from pexels to reflect photographer's main areas of fo
 <summary>Home</summary>
 <br>
 
-![Home Mobile](./assets/readme%20_docs/wireframes/home_mobile.JPG) 
-![Home Tablet](./assets/readme%20_docs/wireframes/home_tablet.png) 
-![Home Desktop](./assets/readme%20_docs/wireframes//home_desktop.png) 
-</details>
+![Home Mobile](./assets/readme%20_docs/wireframes/wireframes_home.png) 
+
 
 <details>
 <summary>Portfolio</summary>
 <br>
 
-![Portfolio Mobile](./assets/readme%20_docs/wireframes/portfolio_Mobile.JPG) 
-![Portfolio  Tablet](./assets/readme%20_docs/wireframes/portfolio_tablet.png) 
-![Portfolio  Desktop](./assets/readme%20_docs/wireframes/portfolio_desktop.png) 
+![Portfolio Mobile](./assets/readme%20_docs/wireframes/wireframes_portfolio.png) 
+
 </details>
 
 <details>
 <summary>Contact</summary>
 <br>
 
-![Contact Mobile](./assets/readme%20_docs/wireframes/contact_mobile.png) 
-![Contact Tablet](./assets/readme%20_docs/wireframes/contact_tablet.png) 
-![Contact Desktop](./assets/readme%20_docs/wireframes/contact_desktop.png) 
-</details>
+![Contact Mobile](./assets/readme%20_docs/wireframes/wireframes_contact.png) 
+
 
 
 # Features
 
 The website is comprised of 3 pages: Home, Portfolio and Contact page. 
 
-Home page is devided into 4 sections: Hero image, Title, About and Reviews.
-Porfolio page consists of pictures organised in a grid. 
+Home page is divided into 4 sections: Hero image, Title, About and Reviews.
+Portfolio page consists of pictures organised in a grid. 
 Contact page contains the contact information for the photographer.
 
 ## Logo and Navigations Bar
@@ -137,7 +134,7 @@ Contact page contains the contact information for the photographer.
 * Repeats across all three pages for consistency and easy navigation
 * Logo on the left side in contrasting gold color displays photographer's brand clearly
 * Logo item links back to the home page 
-* Links to other pages ar placed on the right to maintain the conventions expected by the user
+* Links to other pages are placed on the right to maintain the conventions expected by the user
 * Navigation menu will turn into hamburger menu on smaller devices 
 * Hamburger menu opens to show list of other pages
 * Hover effect added on the navigation links for easy navigation  
@@ -150,8 +147,8 @@ Contact page contains the contact information for the photographer.
 ## Footer
 
 * Repeats across all three pages for consistency and easy navigation
-* Logo is centered in the middle  
-* Social media links, where more content and photo examples are available, is centerd in the middle under the logo 
+* Logo is centred in the middle  
+* Social media links, where more content and photo examples are available, is centred in the middle under the logo 
 * Social media links open in a new tab
 * Social media links get bigger when hovered over for easier navigation 
 * Link description added for accessibility and SEO
@@ -184,7 +181,7 @@ Contact page contains the contact information for the photographer.
 ### Hire button  
 
 * Located under the title 
-* Links to contact page to enable easy nagivation for direct booking
+* Links to contact page to enable easy navigation for direct booking
 * Hover effect added to give feedback when pointed at
 * Relates to following user stories: 11, 14
 
@@ -194,8 +191,8 @@ Contact page contains the contact information for the photographer.
 
 * Picture of the photographer on the left accompanies the text and makes it more personal
 * Text on the right presents photographers experience and approach 
-* Above elemetns get stacked on top of each other for content to be intelligible
-* Some text made bold for emphasis and to make content intersting
+* Above elements get stacked on top of each other for content to be intelligible
+* Some text made bold for emphasis and to make content interesting
 * Relates to following user stories: 3, 6, 9, 15, 17
 
 ![About section](./assets/readme%20_docs/about.JPG)
@@ -213,11 +210,11 @@ Contact page contains the contact information for the photographer.
 ## Portfolio page
 
 * Title makes it clear on which page the visitor currently is 
-* Consist's of one section only for simpler navigation
+* Consists of one section only for simpler navigation
 * Presents the photographer's work. 
 * Photos organised in 3 column grid for customers to:
    * spot their desired category quicker and 
-    * see more examples at one glance
+   * see more examples at one glance
 * Photos are displayed in 2 column grid on smaller devices, such as tablet
 * Photos are displayed in one column on even smaller devices, such as mobile phones
 * Alt description added to images for accessibility 
@@ -230,7 +227,7 @@ Contact page contains the contact information for the photographer.
 * Title makes it clear on which page the visitor currently is 
 * Form and address box  cover 1/3 of the screen size 
 * Background image covers the rest of the page for better visual effect
-* Form and and address box is centered on smaller devices
+* Form and address box is centred on smaller devices
 * Relates to following user stories: 10,13
 
 ![Contact page title](./assets/readme%20_docs/contact-page-title.JPG)
@@ -245,7 +242,7 @@ Contact page contains the contact information for the photographer.
 ![Form](./assets/readme%20_docs/form.JPG)
 
 ### Checkbox 
-* Allows visitors to specify their prefered pohoto category 
+* Allows visitors to specify their preferred photo category 
 * Enables to select multiple categories at once
 * Relates to following user stories: 18
 
@@ -261,7 +258,7 @@ Contact page contains the contact information for the photographer.
 ## Future implementations
 
 * Change the hero image for the carousel with a series of images using JavaScript
-* A section where the poeple will be able to add their comments directly on the website
+* A section where the people will be able to add their comments directly on the website
 * 'New' section where people will get notified about any new offers or promotions
 
 
@@ -295,7 +292,7 @@ Contact page contains the contact information for the photographer.
 <summary>Home page</summary>
 <br>
 
-![Home page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Home%20page.JPG)
+![Home page Lighthouse test](./assets/readme%20_docs/lighthouse%20test/Home%20page.JPG)
 
 </details> 
 
@@ -303,7 +300,7 @@ Contact page contains the contact information for the photographer.
 <summary>Portfolio</summary>
 <br>
 
-![Portfolio page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Portfolio%20page.JPG)
+![Portfolio page Lighthouse test](./assets/readme%20_docs/lighthouse%20test/Portfolio%20page.JPG)
 
 </details> 
 
@@ -311,7 +308,7 @@ Contact page contains the contact information for the photographer.
 <summary>Contact page</summary>
 <br>
 
-![Contact page Lighthouse test](./assets/readme%20_docs/Lighthouse%20test/Contact%20page.JPG)
+![Contact page Lighthouse test](./assets/readme%20_docs/lighthouse%20test/Contact%20page.JPG)
 
 </details> 
 
@@ -323,7 +320,7 @@ Contact page contains the contact information for the photographer.
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Title  | Title section is displayed on the bottom of each viewport under the hero image  and takes 20% of vieport height | Works as expected|
+| Title  | Title section is displayed on the bottom of each viewport under the hero image  and takes 20% of viewport height | Works as expected|
 
 
 <details>
@@ -381,7 +378,7 @@ Contact page contains the contact information for the photographer.
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Review section  | Visitors should see two boxes next to each other with name and star rating on the right from the photo and the text continaing opinions of other customers underneath start rating when they scroll to the review section | Works as expected|
+| Review section  | Visitors should see two boxes next to each other with name and star rating on the right from the photo and the text containing opinions of other customers underneath start rating when they scroll to the review section | Works as expected|
 
 <details>
 <summary>Screenshot</summary>
@@ -417,9 +414,9 @@ Contact page contains the contact information for the photographer.
 |  :---| :---|  :---|
 | Responsive Header  | Header turns into hamburger menu on devices with width under 800 px and it opens over the whole screen when clicked| Works as expected|
 | Responsive About Section | Text gets stacked under the image on devices with width under 1100px where text is wider than the image and under 500px where text is the same width as the image | Works as expected | 
-| Responsive Reviews Section| Review boxes get stacked under each other on devices under 1100 and get a bit longer and narrower on devices under 500px. Name and star rating   get under the image for even smaller devices unde 400px | Works as expected |
-|Responsive Porfolio Section| 3 grid layout turns into 2 grid on devices under 800px and into 1 column under 500px | Works as expected |
-|Responsive Contanct Section| The form and address box will get centered on devices under 1000px | Works as expected |
+| Responsive Reviews Section| Review boxes get stacked under each other on devices under 1100 and get a bit longer and narrower on devices under 500px. Name and star rating   get under the image for even smaller devices under 400px | Works as expected |
+|Responsive Porftolio Section| 3 grid layout turns into 2 grid on devices under 800px and into 1 column under 500px | Works as expected |
+|Responsive Contact Section| The form and address box will get centred on devices under 1000px | Works as expected |
 
 
 
@@ -462,25 +459,25 @@ Contact page contains the contact information for the photographer.
 </details> 
 
 <details>
-<summary>Screenshots for Reveiews Section</summary>
+<summary>Screenshots for Reviews Section</summary>
 <ul>
 
  <details>
- <summary>Reveiews Section under 1100px</summary>
+ <summary>Reviews Section under 1100px</summary>
 
- ![Reveiews Section under 1100px](./assets/readme%20_docs/user%20testing/Review_under1100_user_stories.JPG)
+ ![Reviews Section under 1100px](./assets/readme%20_docs/user%20testing/Review_under1100_user_stories.JPG)
  </details>
 
  <details>
- <summary>Reveiews Section under 700px</summary>
+ <summary>Reviews Section under 700px</summary>
 
- ![Reveiews Section under 700px](./assets/readme%20_docs/user%20testing/Review_under700_user_stories.JPG)
+ ![Reviews Section under 700px](./assets/readme%20_docs/user%20testing/Review_under700_user_stories.JPG)
  </details>
 
  <details>
- <summary>Reveiews Section under 400px</summary>
+ <summary>Reviews Section under 400px</summary>
  
- ![Reveiews Section under 400px](./assets/readme%20_docs/user%20testing/Review_under400_user_stories.JPG)
+ ![Reviews Section under 400px](./assets/readme%20_docs/user%20testing/Review_under400_user_stories.JPG)
 
  </details> 
 </ul>
@@ -522,11 +519,11 @@ Contact page contains the contact information for the photographer.
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Header links| Take visitors to Home, Porfolio and Contact page respectively when clicked| Works as expected|
+| Header links| Take visitors to Home, Portfolio and Contact page respectively when clicked| Works as expected|
 |HIRE ME button | Take visitors to Contact page when clicked | Works as expected | 
 |Link to Facebook | Opens Facebook page in a new tab | Works as expected | 
 |Link to Instagram | Opens Instagram page in a new tab | Works as expected |
-|Link to Pinterest | Opens Pinterestpage in a new tab | Works as expected |
+|Link to Pinterest | Opens Pinterest page in a new tab | Works as expected |
 |Link to Twitter| Opens Twitter page in a new tab | Works as expected |
 
 
@@ -534,8 +531,8 @@ Contact page contains the contact information for the photographer.
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Text color and Background color | Contrast between text color and background color makes text visible. Yellow text is on dark backrounds and black text is on white background |
-|Positioning of elements| Sections get stacked under each other rahter than text getting smaller | Works as expected | 
+| Text color and Background color | Contrast between text color and background color makes text visible. Yellow text is on dark backgrounds and black text is on white background |
+|Positioning of elements| Sections get stacked under each other rather than text getting smaller | Works as expected | 
 
 10. I want to be able to find contact details for the photographer
 
@@ -545,9 +542,9 @@ AND
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Form| Visitors data are sent when they clisk send button |  Works as expected |
-|Placeholder for input| Visitors are given example of what ifnormation is requried from them | Works as expected | 
-|Address section | Visitors can find email and phone details as well as address when they scrool down on conctact page| Works as expected | 
+| Form| Visitors data are sent when they click send button |  Works as expected |
+|Placeholder for input| Visitors are given example of what information is required from them | Works as expected | 
+|Address section | Visitors can find email and phone details as well as address when they scroll down on contact page| Works as expected | 
 
 11. I would like to be able to book the photographer directly
 
@@ -565,7 +562,7 @@ AND
 
 | Feature | Expected result | Actual result |
 |  :---| :---|  :---|
-| Chekbox| When visitor clicks on which photo type they prefer it will provide site owner data about which photography the visitors are interested in |  Works as expected |
+| Checkbox| When visitor clicks on which photo type they prefer it will provide site owner data about which photography the visitors are interested in |  Works as expected |
 
 ### Full Testing
 
@@ -732,12 +729,12 @@ The website was tested on following devices
  |  Expected |  Bug |  Fix |
  |  :---| :---|  :---|
  |  Hero image should be directly under the header | Header went over the hero image | Height property in navigation bar was updated  to 100% and that pushed the image lower |
- |The website should fit the width of a respective  viewport | The sroll bar appeared at the bottom so it was necessary to move right and left to view the whole content. This was due to 'About section' was going over the set viewport width | Margin of  'About section'  was set to 0
- |Footer should cover the whole bottom of the page | There was a white space under the footer which was cause by the content of reviewer-boxes in 'Review section' overflowing | The height of the review-background was ajdusted to give the text more space. The review-container was ajdusted as well to fit the section without excessive free space |
- | Hamburger menu items should be centered | The menu items were all starting from the same level on the left which made porfolio to stick out | The parent navigation menue list was given display property with value block. The children a elements were given propety display with value flex and justify content property with value center which aligned the links into the middle of the screen |
+ |The website should fit the width of a respective viewport | The scroll bar appeared at the bottom so it was necessary to move right and left to view the whole content. This was due to 'About section' was going over the set viewport width | Margin of  'About section'  was set to 0
+ |Footer should cover the whole bottom of the page | There was a white space under the footer which was cause by the content of reviewer-boxes in 'Review section' overflowing | The height of the review-background was adjusted to give the text more space. The review-container was adjusted as well to fit the section without excessive free space |
+ | Hamburger menu items should be centred | The menu items were all starting from the same level on the left which made portfolio to stick out | The parent navigation menu list was given display property with value block. The children a elements were given property display with value flex and justify content property with value centre which aligned the links into the middle of the screen |
  | When users of smaller screen touch the options from Hamburger navigation menu it should change the color of the whole screen from left to right | There was a space on the left when the color changed due to the ul element in header section had padding applied | Padding left property for ul element was removed |
- |  Two review boxes should get smaller when the viewport gets smaller and text should align accodingly | For the wieports under 411 px header and star rating were getting  distorted and the letters as well as stars were getting under each other and lost original alignment | Parent container was of the header and start rating was updated to block and  header and star rating were given display property with  value flex which pushed these two elements  under the picture |
- | The checkbox  for the photo type selection should get stacked under each other on the devices which are narrower than 800px | The checkboex inputs and the labels were not aligned neither vertically or horizontally |  The checkbox inputs were wrapped into the unordered list and displayed as a block 
+ |  Two review boxes should get smaller when the viewport gets smaller and text should align accordingly | For the viewports under 411 px header and star rating were getting  distorted and the letters as well as stars were getting under each other and lost original alignment | Parent container was of the header and start rating was updated to block and  header and star rating were given display property with  value flex which pushed these two elements  under the picture |
+ | The checkbox for the photo type selection should get stacked under each other on the devices which are narrower than 800px | The checkboxes inputs and the labels were not aligned neither vertically or horizontally |  The checkbox inputs were wrapped into the unordered list and displayed as a block 
 
 
 ### Known bugs
@@ -746,12 +743,14 @@ There are not any known bugs
 # Deployment & local development
 
 ## Deployment 
-The site is deployed using GitHub Pages - ------>link to the website<------
+The site is deployed using GitHub Pages and link can be found [here](https://vero-nika-2828.github.io/yasmin-jas-photography/)
 
-To Deploy the site using GitHub ppages:
+To Deploy the site using GitHub pages:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project,
+2. Go to the repository for this project, vero-nika-2828
+/
+yasmin-jas-photography 
 3. Click the setting button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -762,7 +761,9 @@ To Deploy the site using GitHub ppages:
 ### How to Fork 
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, ----> add the link 
+2. Go to the repository for this project, vero-nika-2828
+/
+yasmin-jas-photography
 3. Click the Fork button in the top right corner 
 
 ### How to Clone
@@ -796,7 +797,7 @@ Images were taken from [Pexels](https://www.pexels.com/) and were posted by thes
 * Yaroslav-Shuraev
   * [A girl giving water to a dog ](https://www.pexels.com/photo/woman-in-yellow-knit-cap-sitting-beside-siberian-husky-9632115/)
 
-   * [A gril and a dog in a park ](https://www.pexels.com/photo/close-up-shot-of-a-woman-and-her-dog-lying-down-on-a-picnic-blanket-9632605/)
+   * [A girl and a dog in a park ](https://www.pexels.com/photo/close-up-shot-of-a-woman-and-her-dog-lying-down-on-a-picnic-blanket-9632605/)
 
 
 * Alesia Kozik
@@ -846,7 +847,7 @@ Images were taken from [Pexels](https://www.pexels.com/) and were posted by thes
   * [Katherine Smith (Reviewer 2)](https://www.pexels.com/photo/woman-wearing-black-framed-eyeglasses-2118708/)
 
 ## Code
-For hambuger navigation menu I took inspiration from [this tutorial](https://www.youtube.com/watch?v=xXze-haVm7g), and I ajdusted the code heavily in order to fit the needs of my website
+For hambuger navigation menu I took inspiration from [this tutorial](https://www.youtube.com/watch?v=xXze-haVm7g), and I adjusted the code heavily in order to fit the needs of my website
 
 ## Effect
 The grey style effect on the pictures was taken from [W3C](https://www.w3schools.com/w3css/w3css_effects.asp)
@@ -854,11 +855,12 @@ The grey style effect on the pictures was taken from [W3C](https://www.w3schools
 
 ## Aknowledgement
 
-I would like to aknowledge following peole who helped me along the way in completing this project: 
+I would like to thank to following people who helped me along the way in completing this project: 
 * My Code Institute mentor, Mitko Bachvarov, for his valuable advice and comprehensive guidance
-* My tutor for being so patient with me and being there for me everytime I had some questions
+* My tutor for being so patient with me and being there for me every time I had any questions
 * Fellow Code Institue students and staff for taking time to answer my questions on Slack
 * Oisin from Tutor support for helping me with an issue I came across in my project
+* My family and friends for giving me moral support and all their patience
 
 
 
