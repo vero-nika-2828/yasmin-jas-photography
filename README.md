@@ -118,7 +118,7 @@ Images used were selected from pexels to reflect photographer's main areas of fo
 <br>
 
 ![Contact Mobile](./assets/readme%20_docs/wireframes/wireframes_contact.png) 
-
+</details>
 
 
 # Features
@@ -283,8 +283,42 @@ Contact page contains the contact information for the photographer.
 ## Automated Testing 
 
 ### CSS Validator (W3C)
- * HTML Validator - pass
+ * HTML Validator 
+   * index.html - pass
+    <details>
+    <summary>Home page</summary>
+    <br>
+
+  ![Index.html Validation](./assets/readme%20_docs/W3C%20Validators/inde.html.JPG)
+
+    </details> 
+
+   * portfolio.html - pass
+
+   <details>
+    <summary>Home page</summary>
+    <br>
+
+  ![Portfolio.html Validation](./assets/readme%20_docs/W3C%20Validators/portfolio_html.JPG)
+
+   </details> 
+
+
+   * contact.html - pass
+     <details>
+    <summary>Home page</summary>
+    <br>
+
+   ![Contact.html Validation](./assets/readme%20_docs/W3C%20Validators/contact_html.JPG)
+
+   </details>  
+
+
  * CSS Validator -pass
+ 
+   ![Stylesheet Valiation](./assets/readme%20_docs/W3C%20Validators/CSS%20Validator.JPG)
+
+   </details>  
 
 ### Lighthouse
 

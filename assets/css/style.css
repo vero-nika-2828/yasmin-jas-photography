@@ -35,12 +35,16 @@ header{
  
 }
 
+
+/*Aligns headers*/
 h1,h2,h3,h4,h5,h6{
 text-align: center;
 font-family: 'Acme', sans-serif;
 
 }
 
+
+/*Logo styling*/
 #logo{
   line-height:20px;
   font-family: 'Acme', sans-serif;
@@ -51,6 +55,7 @@ font-family: 'Acme', sans-serif;
   padding: 15px 10px;
 }
 
+/*Hide hamburger menu*/
 #drop-down{
   visibility: hidden;
 }
@@ -70,7 +75,7 @@ input[type=checkbox]:disabled{
   display: none;
 }
 
-
+/*Positions menu on top with Z-index*/
 #nav-menu{
   right: 2rem;
   top:0;
@@ -79,7 +84,7 @@ input[type=checkbox]:disabled{
   display:flex;
 }
 
-
+/*Nav bar positioning and styling*/
 #nav-menu li{
   margin-right:0;
   list-style-type: none;
@@ -112,32 +117,35 @@ input[type=checkbox]:disabled{
 
 nav{
      margin:0;
-  }
+}
 
-  #heroimage-section {
-    height: 75vh;
+
+/*Hero image styling*/
+#heroimage-section {
+  height: 75vh;
     width:100%;
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+}
 
-  #hero-image{
-    height:100%;
-    width:100%;
-    background: url(../images/a-girl-with-a-rabbit.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden; 
-    padding-right:20rem;
+#hero-image{
+  height:100%;
+  width:100%;
+  background: url(../images/a-girl-with-a-rabbit.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; 
+  padding-right:20rem;
 
-  }
+}
 
-  footer{
-    background-color:#CCBA78;
-    height:100%;
-    margin: 0;
-    padding: 0.5rem 0;
-    
 
+/*Footer styling*/
+
+footer{
+  background-color:#CCBA78;
+  height:100%;
+  margin: 0;
+  padding: 0.5rem 0;
     
         
 }
@@ -153,6 +161,8 @@ nav{
         
 }
 
+
+/*Social links positioning*/
 .social-links {
     text-align: center;
     margin-bottom: 15px;
@@ -186,7 +196,7 @@ footer a {
     }
 
     footer a:hover {
-      scale: 1.5;
+      transform:scale(1.5);
    }
 
 footer i{ 
@@ -195,13 +205,13 @@ footer i{
     font-weight: bold;
     text-align:center;
     transition: 0.3s ease-in-out;
-
-   
+    
   }
 
-  footer i{
-    scale:inherit;
-  }
+    footer i:hover {
+    transform:scale(1.5);
+ }
+
 
 
 h6 i{
@@ -301,6 +311,7 @@ h6 i{
   z-index:1;
 }
 
+/*Position review container on top of the backgound*/
 .review-container{
   height:100%;
   width:auto;
@@ -310,6 +321,8 @@ h6 i{
 
 }
 
+
+/*Container for reviews text*/
 .reviewer-box{
   width: 25%;
   height: 60%;
@@ -342,13 +355,13 @@ h6 i{
   text-align: left;
 }
 
+
+/*Align text, header images and star ratings*/
 .reviewer-box p{
   margin-top: 1.5rem;;
 
 }
 
-
-/* move the above review container to the middle */
 
 .rated{
   text-align: center;
@@ -377,7 +390,7 @@ h6 i{
   display:block;
 }
 
-
+/*Image size for portfolio*/
 #portfolio img{
   height:100%;
   width:100%;
@@ -386,13 +399,12 @@ h6 i{
 }
 
 
-
+/*Organise portfolio in a grid*/
 #portfolio {
   width:100%;
   height:100%;
   margin: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(1fr, 1fr, 1fr);   
   grid-auto-rows: 20rem;
   row-gap: 10px;
   column-gap: 10px;
@@ -489,7 +501,7 @@ h6 i{
 
 
 
-
+/*Contact section styling and positioning*/
 #contact-bg{
   background:url(../images/background-photo/a-dog-in-front-of-waterfall.jpg);
   background-position:center;
@@ -609,7 +621,7 @@ textarea{
 
   .btn:hover{
     background-color:#000000;
-    scale: 1.1;
+    transform:scale(1.1);
   }
 
 
@@ -708,14 +720,14 @@ textarea{
    width:100%;
   }
 
-#about-pic {
+ #about-pic {
   display: flex;
   justify-content: center;;
   margin:auto
 }
 
  #about-pic img{
-  width: 100%;
+   width: 100%;
   height: 100%;
   
  }
