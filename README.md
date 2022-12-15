@@ -103,7 +103,7 @@ Images used were selected from pexels to reflect photographer's main areas of fo
 <br>
 
 ![Home Mobile](./assets/readme%20_docs/wireframes/wireframes_home.png) 
-
+</details>
 
 <details>
 <summary>Portfolio</summary>
